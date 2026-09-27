@@ -1,0 +1,13 @@
+.env
+__pycache__/
+.idea/
+*.pyc
+.venv/
+*.bak
+
+# Milvus: машинно-зависимый оверрайд и локальные тома контейнеров
+docker-compose.override.yml
+volumes/
+
+# кэш эмбеддингов, пересобирается ноутбуком
+emb_cache.npz
