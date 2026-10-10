@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-129",
+  "source": "fresh",
+  "question": "Каким судом был приговорён бывший президент Косово Хашим Тачи в сентябре 2026 года?",
+  "answer": "Специальный суд по Косову",
+  "evidence": "Бывший президент Косово Хашим Тачи приговорён Специальным судом по Косову в Гааге к 25 годам лишения свободы за убийства, пытки и незаконные задержания.",
+  "page": "Портал:Текущие события/Последние события",
+  "url": "https://ru.wikipedia.org/w/index.php?oldid=155289332",
+  "sonnet_answer": "unknown",
+  "agent_ok": null
+ },
+ "answer": "Бывший президент Косово Хашим Тачи был приговорён Косовскими специализированными судами в сентябре 2026 года к 25 годам тюремного заключения за военные преступления. \n\nFINAL: Косовские специализированные суды",
+ "correct": false,
+ "cost": 0.0002524499999999874,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Каким судом был приговорён бывший президент Косово Хашим Тачи в сентябре 2026 года?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_1q6IT1l35MB7RrVvoIIPjrP5",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Hashim Thaci sentenced September 2026\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_1q6IT1l35MB7RrVvoIIPjrP5",
+   "content": "[Hashim Thaçi] Hashim Thaçi (born 24 April 1968) is a Kosovan politician who was the first prime minister of Kosovo (2008–2014) and the foreign minister and deputy prime minister (2014–2016) in the cabinet led by Isa Mustafa. He also served as president of Kosovo from 2016 until his resignation in 2020. Thaçi is from the region of Drenica in Kosovo, which is where the Kosovo Liberation Army (KLA) originated. He studied philosophy in Pristina before moving to Switzerland, where he joined the KLA in 1993. An Albanian nationalist, he rose through the ranks of the KLA to become leader of the most powerful faction by 1999, during the Rambouillet negotiations. He then joined the interim Kosovo administration after the war. Thaçi became leader of the Democratic Party of Kosovo (PDK), which won the largest share of the vote in the 2007 Kosovo elections. In 2008, Thaçi read the declaration of independence of Kosovo and became its first prime minister. In 2016 he was elected president of Kosovo. Thaçi pursued a pro-American policy while in office. In September 2026, Thaçi was convicted by the Kosovo Specialist Chambers' first instance Trial Panel of war crimes in the Kosovo War. Thaçi's defence lawyers stated that they would appeal the decision. In 2020, the Kosovo Specialist Chambers and Specialist Prosecutor's Office in The Hague filed a ten-count indictment against Thaçi and others, charging them with crimes against humanity and war crimes. To face these charges, Thaçi resigned from the presidency, stating that he did so to \"protect the integrity of the presidency of Kosovo\". He was arrested and pleaded not guilty to all charges. His trial opened in April 2023. The Specialist Prosecutor's Office sought a sentence of 45 years imprisonment for war crimes and persecution of Serb and Roma minorities. In September 2026, he was convicted and sentenced to 25 years in prison for war crimes including the murder of 96 people and the torture of 303 people. The Trial Panel found Thaçi"
+  },
+  {
+   "role": "assistant",
+   "content": "Бывший президент Косово Хашим Тачи был приговорён Косовскими специализированными судами в сентябре 2026 года к 25 годам тюремного заключения за военные преступления. \n\nFINAL: Косовские специализированные суды",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

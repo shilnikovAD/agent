@@ -1,0 +1,120 @@
+{
+ "task": {
+  "id": "fresh-18",
+  "source": "fresh",
+  "question": "In Germany, what was the date when a Munich court imprisoned an Iraqi couple for enslaving and raping Yazidi girls?",
+  "answer": "13 July",
+  "evidence": "13 July – A Munich court imprisons an Iraqi couple who were members of Islamic State for enslaving and raping Yazidi girls.",
+  "page": "2026 in Germany",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+  "sonnet_answer": "November 25, 2021",
+  "agent_ok": false
+ },
+ "answer": "The Munich court imprisoned the Iraqi couple for enslaving and raping Yazidi girls in July 2026. \n\nFINAL: July 2026",
+ "correct": false,
+ "cost": 0.0008815500000000087,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "In Germany, what was the date when a Munich court imprisoned an Iraqi couple for enslaving and raping Yazidi girls?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_vTfnuuHqJyWsHHN9cQZKUTLd",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Munich court Iraqi couple enslaving raping Yazidi girls\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_vTfnuuHqJyWsHHN9cQZKUTLd",
+   "content": "[Yazidi genocide] The Yazidi genocide also known as the 74th firman by Yazidis, was perpetrated by the Islamic State in Iraq and Syria between 2014 and 2017. It was characterized by massacres, genocidal rape, and forced conversions to Islam. The Yazidis are a Kurdish-speaking people who are indigenous to Kurdistan who practice Yazidism, a monotheistic Iranian ethnoreligion derived from the Indo-Iranian tradition. Over a period of three years, Islamic State militants trafficked thousands of Yazidi women and girls and killed thousands of Yazidi men. The United Nations reported that the Islamic State killed about 5,000 Yazidis and trafficked about 10,800 Yazidi women and girls in a \"forced conversion campaign\" throughout Iraq. By 2015, upwards of 71% of the global Yazidi population was displaced by the genocide, with most Yazidi refugees having fled to Iraq's Kurdistan Region and Syria's Rojava. The persecution of Yazidis, along with other religious minorities, took place after the Islamic State's Northern Iraq offensive of June 2014. Amid numerous atrocities committed by the Islamic State, the Yazidi genocide attracted international attention and prompted the United States to establish CJTF–OIR, a military coalition consisting of many Western countries and Turkey, Morocco, and Jordan. Additionally, the United States, the United Kingdom, and Australia made emergency airdrops to support Yazidi refugees who were trapped in the Sinjar Mountains due to the Islamic State's Northern Iraq offensive of August 2014. During the Sinjar massacre, in which the Islamic State killed and abducted thousands of trapped Yazidis, the United States and the United Kingdom began carrying out airstrikes on the advancing Islamic State militants, while the People's Defense Units and the Kurdistan Workers' Party jointly formed a humanitarian corridor to evacuate the rest of the Yazidi refugees from the Sinjar Mountains. The United Nations and several other organizations, including the Council of"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_yaa1kTosFNjYGUq223kgx2K2",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Munich court Iraqi couple enslaving raping Yazidi girls date\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_yaa1kTosFNjYGUq223kgx2K2",
+   "content": "[Yazidi genocide] The Yazidi genocide also known as the 74th firman by Yazidis, was perpetrated by the Islamic State in Iraq and Syria between 2014 and 2017. It was characterized by massacres, genocidal rape, and forced conversions to Islam. The Yazidis are a Kurdish-speaking people who are indigenous to Kurdistan who practice Yazidism, a monotheistic Iranian ethnoreligion derived from the Indo-Iranian tradition. Over a period of three years, Islamic State militants trafficked thousands of Yazidi women and girls and killed thousands of Yazidi men. The United Nations reported that the Islamic State killed about 5,000 Yazidis and trafficked about 10,800 Yazidi women and girls in a \"forced conversion campaign\" throughout Iraq. By 2015, upwards of 71% of the global Yazidi population was displaced by the genocide, with most Yazidi refugees having fled to Iraq's Kurdistan Region and Syria's Rojava. The persecution of Yazidis, along with other religious minorities, took place after the Islamic State's Northern Iraq offensive of June 2014. Amid numerous atrocities committed by the Islamic State, the Yazidi genocide attracted international attention and prompted the United States to establish CJTF–OIR, a military coalition consisting of many Western countries and Turkey, Morocco, and Jordan. Additionally, the United States, the United Kingdom, and Australia made emergency airdrops to support Yazidi refugees who were trapped in the Sinjar Mountains due to the Islamic State's Northern Iraq offensive of August 2014. During the Sinjar massacre, in which the Islamic State killed and abducted thousands of trapped Yazidis, the United States and the United Kingdom began carrying out airstrikes on the advancing Islamic State militants, while the People's Defense Units and the Kurdistan Workers' Party jointly formed a humanitarian corridor to evacuate the rest of the Yazidi refugees from the Sinjar Mountains. The United Nations and several other organizations, including the Council of"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_f3LyYpxYWoC6lXyfEA4aia36",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Yazidi_genocide\",\"keywords\":\"Munich court Iraqi couple enslaving raping\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_f3LyYpxYWoC6lXyfEA4aia36",
+   "content": "In July 2026, the Higher Regional Court of Munich convicted an Iraqi Kurdish couple, identified as Twana H.S. and Asia R.A., of genocide, crimes against humanity, and war crimes over the enslavement, torture, and sexual abuse of two Yazidi girls between 2015 and 2017. Twana H.S. was sentenced to life imprisonment, and Asia R.A. was given a juvenile sentence of nine years and six months.\nAmal Clooney of the Center for Justice & Accountability (CJA), represented five Yazidi women before the United States District Court for the Eastern District of Virginia against Umm Sayyaf seeking prosecution of Sayyaf for her role in their enslavement. In 2021, German courts convicted IS women for their involvement in the enslavement of Yazidi women. German courts also prosecuted Taha al-Jumailly\nOn 10 August, according to statements by the Iraqi government, IS militants buried alive an undefined number of Yazidi women and children in northern Iraq in an attack that killed 500 people.\nOn 3 August, IS abducted women and children from the al-Qahtaniya area, and 450–500 abducted Yazidi women and girls were taken to Tal Afar; hundreds more to Si Basha Khidri and then Ba'aj. When IS fighters attacked Jabal Sinjar on 4 August, they abducted a number of women in the Yazidi village of Hardan, wives and daughters were abducted; other Yazidi women were abducted in other villages in the a\nIn June 2017, reports from Vian Dakhil of the Iraqi parliament told of a captured sex slave being fed her own one-year-old child. The woman was starved for three days in a cellar and was finally given a meal by her captors. When finished, they said \"We cooked your one-year-old son that we took from you, and this is what you just ate\".\nA young woman described her experience in a 2023 documentary Daughters of the Sun: \"A man bought me. He was an Iraqi, from Til Afar. He was 24 years old ... I was his slave and had to take care of his children. He hit me all the time. I was with that family for three years. Not "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_0XZr29tK19btZZYi4GhRoZgr",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Yazidi_genocide\",\"keywords\":\"Munich court date\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_0XZr29tK19btZZYi4GhRoZgr",
+   "content": "In July 2026, the Higher Regional Court of Munich convicted an Iraqi Kurdish couple, identified as Twana H.S. and Asia R.A., of genocide, crimes against humanity, and war crimes over the enslavement, torture, and sexual abuse of two Yazidi girls between 2015 and 2017. Twana H.S. was sentenced to life imprisonment, and Asia R.A. was given a juvenile sentence of nine years and six months.\nUnited Kingdom: On 20 April 2016, the House of Commons of the United Kingdom unanimously supported a motion to declare that the treatment of Yazidis and Christians by the Islamic State amounted to genocide, to condemn it as such, and to refer the issue to the UN Security Council. In doing so, Conservative MPs defied their own party's government, who had tried to dissuade them from making such a st\nBelgium: On 30 June 2021, the Foreign Relations Commission of the Belgian Chamber of Representatives unanimously approved a resolution by opposition representatives Georges Dallemagne (cdH) and Koen Metsu (N-VA) to recognise IS's August 2014 massacre of thousands of Yazidi men and enslavement of thousands of Yazidi women and children as genocide. The resolution, which would likely also pass with o\nOn 13 August 2014, fewer than 20 United States Special Forces troops stationed in Irbil along with British Special Air Service troops visited the area near Mount Sinjar to gather intelligence and plan the evacuation of approximately 30,000 Yazidis still trapped on Mount Sinjar. One hundred and twenty-nine additional US military personnel were deployed to Irbil to assess and provide a report to Pre\nAmal Clooney of the Center for Justice & Accountability (CJA), represented five Yazidi women before the United States District Court for the Eastern District of Virginia against Umm Sayyaf seeking prosecution of Sayyaf for her role in their enslavement. In 2021, German courts convicted IS women for their involvement in the enslavement of Yazidi women. German courts also prosecuted Taha al-Jumailly"
+  },
+  {
+   "role": "assistant",
+   "content": "The Munich court imprisoned the Iraqi couple for enslaving and raping Yazidi girls in July 2026. \n\nFINAL: July 2026",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

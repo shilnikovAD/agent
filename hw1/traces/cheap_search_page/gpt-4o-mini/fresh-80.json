@@ -1,0 +1,120 @@
+{
+ "task": {
+  "id": "fresh-80",
+  "source": "fresh",
+  "question": "What regulation did the Supreme Court of India stay on January 29, 2026?",
+  "answer": "UGC Equity Regulations, 2026",
+  "evidence": "29 January – The Supreme Court of India stays the implementation of the UGC Equity Regulations, 2026 citing misuse by specific groups.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "On January 29, 2026, the Supreme Court of India stayed the implementation of the University Grants Commission (Promotion of Equity in Higher Education Institutions) Regulations, 2026, often referred to as the Anti-Discrimination Rules. These regulations had faced protests and challenges regarding their constitutional validity. \n\nFINAL: UGC Equity Regulations, 2026",
+ "correct": true,
+ "cost": 0.0007549500000000042,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What regulation did the Supreme Court of India stay on January 29, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_2yeSt7AHHbNpCyJzzzMenitL",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Supreme Court of India stay January 29 2026\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_2yeSt7AHHbNpCyJzzzMenitL",
+   "content": "[Supreme Court of the United States] The Supreme Court of the United States (SCOTUS) is the highest court in the federal judiciary of the United States. It has ultimate appellate jurisdiction over all U.S. federal court cases, and over state court cases that turn on questions of U.S. constitutional or federal law. It also has original jurisdiction over a narrow range of cases, specifically \"all Cases affecting Ambassadors, other public Ministers and Consuls, and those in which a State shall be Party\". In 1803, the court asserted the power of judicial review, the ability to invalidate a statute for violating a provision of the Constitution. It is also able to strike down presidential directives for violating either the Constitution or statutory law. Under Article Three of the United States Constitution, the composition and procedures of the Supreme Court were originally established by the 1st Congress through the Judiciary Act of 1789. As currently constituted the court consists of nine justices—the chief justice of the United States and eight associate justices—who meet at the Supreme Court Building in Washington, D.C. Justices have lifetime tenure, meaning they remain on the court until they die, retire, resign, or are impeached and removed from office. When a vacancy occurs, the president, with the advice and consent of the Senate, appoints a new justice. Each justice has a single vote in deciding the cases argued before the court. When in the majority, the chief justice decides who writes the opinion of the court; otherwise, the most senior justice in the majority assigns the task. A justice may write an opinion in concurrence with the court, or they may write a dissent, and these concurrences or dissents may also be joined by other justices. On average, the Supreme Court receives about 7,000 petitions for writs of certiorari each year, but only grants about 80."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_OosnzAfD5HksPBAfiDa5Cbbd",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Supreme Court of India news January 29 2026\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_OosnzAfD5HksPBAfiDa5Cbbd",
+   "content": "[2026 in India] The following is a list of events for the year 2026 in India."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_I37GafALcPGC0SkZTp6xHeP7",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Supreme Court of India January 29 2026 regulation stay\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_I37GafALcPGC0SkZTp6xHeP7",
+   "content": "[UGC Equity Regulations, 2026] The University Grants Commission (Promotion of Equity in Higher Education Institutions) Regulations, 2026, commonly referred to as the UGC Equity Regulations, 2026 or the Anti-Discrimination Rules, 2026, are regulations notified by the University Grants Commission (UGC) in India aimed at addressing discrimination within higher education institutions (HEIs). The regulations seek to replace the existing 2012 regulations with more stringent measures to ensure inclusion for students from marginalized backgrounds, particularly the Scheduled Castes (SC), Scheduled Tribes (ST) and Other Backward Classes (OBC). The bill saw protests against the Bharatiya Janta Party (BJP) across the country. As of 29 January 2026, the Supreme Court of India has stayed the proposed regulations."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_K298NDXHsPExYGbKh1UolRNX",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"UGC Equity Regulations, 2026\",\"keywords\":\"Supreme Court stay January 29 2026\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_K298NDXHsPExYGbKh1UolRNX",
+   "content": "The bill saw protests against the Bharatiya Janta Party (BJP) across the country. As of 29 January 2026, the Supreme Court of India has stayed the proposed regulations.\nIn addition to street demonstrations, the Supreme Court has admitted a Public Interest Litigation challenging the constitutional validity of the regulations and has stayed the implementation of the regulations. The petitioners claim that the regulations are unconstitutional on grounds that they violate articles 14, 15 and 21 of the Constitution and could be misused to target specific sections of t\nUniversity Grants Commission (Promotion of Equity in Higher Education Institutions) Regulations, 2026 (PDF) (Report). Gazette of India. 13 January 2026. Retrieved 2 February 2026.\nThe University Grants Commission (Promotion of Equity in Higher Education Institutions) Regulations, 2026, commonly referred to as the UGC Equity Regulations, 2026 or the Anti-Discrimination Rules, 2026, are regulations notified by the University Grants Commission (UGC) in India aimed at addressing discrimination within higher education institutions (HEIs). The regulations seek to replace the exis\nFollowing the notification of the Regulations, widespread demonstrations broke out across several Indian cities, including Delhi, Mumbai, Chennai, and Hyderabad. Protests were particularly concentrated at major educational institutions such as Jawaharlal Nehru University (JNU) and the University of Hyderabad, where student organizations and faculty expressed divergent views on the legislation. On "
+  },
+  {
+   "role": "assistant",
+   "content": "On January 29, 2026, the Supreme Court of India stayed the implementation of the University Grants Commission (Promotion of Equity in Higher Education Institutions) Regulations, 2026, often referred to as the Anti-Discrimination Rules. These regulations had faced protests and challenges regarding their constitutional validity. \n\nFINAL: UGC Equity Regulations, 2026",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

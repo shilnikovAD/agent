@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-130",
+  "source": "fresh",
+  "question": "Как называется новый вид кошачьих, открытый в Боливии в сентябре 2026 года?",
+  "answer": "Leopardus tilcayo",
+  "evidence": "В Боливии открыт новый вид кошачьих — Leopardus tilcayo.",
+  "page": "Шаблон:Текущие события на заглавной странице",
+  "url": "https://ru.wikipedia.org/w/index.php?oldid=155428903",
+  "sonnet_answer": "unknown",
+  "agent_ok": null
+ },
+ "answer": "Новый вид кошачьих, открытый в Боливии в сентябре 2026 года, называется Leopardus tilcayo. \n\nFINAL: Leopardus tilcayo",
+ "correct": true,
+ "cost": 0.00016019999999999923,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Как называется новый вид кошачьих, открытый в Боливии в сентябре 2026 года?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_O26eX6jzfid7p0gefKHJ6aWG",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"новый вид кошачьих Боливия сентябрь 2026\",\"lang\":\"ru\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_O26eX6jzfid7p0gefKHJ6aWG",
+   "content": "[Leopardus tilcayo] Leopardus tilcayo (лат.) — вид хищных млекопитающих из рода южноамериканских кошек семейства кошачьих (Felidae), обитающий в Боливии. Leopardus tilcayo — мелкий хищник, размером меньше обычной домашней кошки. Типовой экземпляр в 2017 году был передан в частный приют для диких животных «Сенда-Верде»."
+  },
+  {
+   "role": "assistant",
+   "content": "Новый вид кошачьих, открытый в Боливии в сентябре 2026 года, называется Leopardus tilcayo. \n\nFINAL: Leopardus tilcayo",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "task": {
+  "id": "fresh-91",
+  "source": "fresh",
+  "question": "What was the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026?",
+  "answer": "₹25,863 crore",
+  "evidence": "5 July – Union Agriculture and Rural Development Minister Shivraj Singh Chouhan releases the first instalment of ₹25,863 crore (US$2.7 billion) to states for the implementation of the VB-G RAM-G scheme.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Perfect! I found the information.\n\nFINAL: ₹25,863 crore (US$2.7 billion)",
+ "correct": true,
+ "cost": 0.016473999999999878,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What was the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about Shivraj Singh Chouhan and the VB-G RAM-G scheme in July 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01SA2LRfRsEbDLDQoJiDhPC1",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Shivraj Singh Chouhan VB-G RAM-G scheme July 2026\", \"lang\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01SA2LRfRsEbDLDQoJiDhPC1",
+   "content": "[2026 in India] The following is a list of events for the year 2026 in India."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search with more specific terms and also try the Russian Wikipedia for relevant information:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01GLNNgJHpo47UbSercbe5iE",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Shivraj Singh Chouhan RAM-G scheme released amount\", \"lang\": \"en\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_01Fs1Vj95d1tPDKeB7BDY1Hk",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"VB-G scheme 2026 India released fund\", \"lang\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01GLNNgJHpo47UbSercbe5iE",
+   "content": "[2026 in India] The following is a list of events for the year 2026 in India."
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01Fs1Vj95d1tPDKeB7BDY1Hk",
+   "content": "[Mahatma Gandhi National Rural Employment Guarantee Act, 2005] The Mahatma Gandhi National Rural Employment Guarantee Act 2005 (MGNREGA) was an Indian social welfare measure that aimed to guarantee the 'right to work'. This act was passed on 23 August 2005 and was implemented in February 2006 under the UPA government of Prime Minister Manmohan Singh following the tabling of the bill in parliament by the Minister for Rural Development Raghuvansh Prasad Singh. The bill was originally known as the National Rural Employment Guarantee Act (NREGA). In 2025, it was repealed by the Parliament of India after the Lok Sabha and Rajya Sabha passed the Viksit Bharat–Guarantee for Rozgar and Ajeevika Mission (Gramin) Act, 2025 (VB–G RAM G). The new legislation replaced MGNREGA with an updated rural employment and livelihood guarantee framework under the Ministry of Rural Development. It aimed to enhance livelihood security in rural areas by providing at least 100 days of assured and guaranteed wage employment in a financial year to at least one member of every Indian rural household whose adult members volunteer to do unskilled manual work. Women are guaranteed one half of the jobs made available under the MGNREGA and efforts are made to ensure that cross the limit of 50%. Another aim of MGNREGA is to create durable assets (such as roads, canals, ponds and wells). Employment is to be provided within 5 km of an applicant's residence, and minimum legal wage under the law is to be paid. If work is not provided within 15 days of applying, applicants are entitled to an unemployment allowance. That is, if the government fails to provide employment, it has to provide certain unemployment allowances to those people. Thus, employment under MGNREGA is a legal entitlement. Apart from providing economic security and creating rural assets, other things said to promote NREGA are that it can help in protecting the environment, empowering rural women, reducing rural-urban migration and fostering"
+  },
+  {
+   "role": "assistant",
+   "content": "Now let me search for the specific page about 2026 in India to find the July event:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01LExf2t9s9XSJSUmwGvP7hH",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"2026 in India\", \"keywords\": \"Shivraj Singh Chouhan VB-G RAM-G July released\", \"lang\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01LExf2t9s9XSJSUmwGvP7hH",
+   "content": "5 July – Union Agriculture and Rural Development Minister Shivraj Singh Chouhan releases the first instalment of ₹25,863 crore (US$2.7 billion) to states for the implementation of the VB-G RAM-G scheme.\n27 July – Susanta Singh, 53, Odisha MLA (since 2014).\nAt least 20 people are reported killed after being attacked by a single wild elephant roaming the forests of West Singhbhum district, Jharkhand since 1 January.\n28 January – 2026 Baramati Learjet 45 crash: Five people, including Maharashtra deputy chief minister, Ajit Pawar, are killed after a Learjet 45 crashes and explodes at Baramati Airport in Maharashtra.\n4 February – Yumnam Khemchand Singh takes oath as the Chief Minister of Manipur after President's rule ends in the state.\n14 March – Sonam Wangchuk is released from jail after the government quashes the National Security Act (India) against him in aftermath of the Ladakh protests."
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found the information.\n\nFINAL: ₹25,863 crore (US$2.7 billion)",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

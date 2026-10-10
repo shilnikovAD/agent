@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-91",
+  "source": "fresh",
+  "question": "What was the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026?",
+  "answer": "₹25,863 crore",
+  "evidence": "5 July – Union Agriculture and Rural Development Minister Shivraj Singh Chouhan releases the first instalment of ₹25,863 crore (US$2.7 billion) to states for the implementation of the VB-G RAM-G scheme.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Shivraj Singh Chouhan released ₹25,863 crore for the implementation of the VB-G RAM-G scheme in July 2026. \n\nFINAL: 25863",
+ "correct": false,
+ "cost": 0.0003210000000000157,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What was the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_CErUrvaZOBFuXtP4BqZHroCp",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Shivraj Singh Chouhan VB-G RAM-G scheme July 2026\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_CErUrvaZOBFuXtP4BqZHroCp",
+   "content": "[2026 in India] The following is a list of events for the year 2026 in India."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_tmo74eKrDD3AvZHNGChsW3Kb",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in India\",\"keywords\":\"Shivraj Singh Chouhan VB-G RAM-G scheme\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_tmo74eKrDD3AvZHNGChsW3Kb",
+   "content": "5 July – Union Agriculture and Rural Development Minister Shivraj Singh Chouhan releases the first instalment of ₹25,863 crore (US$2.7 billion) to states for the implementation of the VB-G RAM-G scheme.\nAt least 20 people are reported killed after being attacked by a single wild elephant roaming the forests of West Singhbhum district, Jharkhand since 1 January.\n28 January – 2026 Baramati Learjet 45 crash: Five people, including Maharashtra deputy chief minister, Ajit Pawar, are killed after a Learjet 45 crashes and explodes at Baramati Airport in Maharashtra.\n4 February – Yumnam Khemchand Singh takes oath as the Chief Minister of Manipur after President's rule ends in the state.\n25 March – At least 14 people are killed and 20 people are injured in a fire following a bus collision with a lorry in Markapuram district, Andhra Pradesh.\nThe India-flagged LPG gas tanker Jag Vikram crosses the Strait of Hormuz, becoming the first Indian vessel to cross the Hormuz since the Iran war ceasefire. It is expected to arrive in Mumbai on 15 April."
+  },
+  {
+   "role": "assistant",
+   "content": "Shivraj Singh Chouhan released ₹25,863 crore for the implementation of the VB-G RAM-G scheme in July 2026. \n\nFINAL: 25863",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

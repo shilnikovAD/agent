@@ -1,0 +1,120 @@
+{
+ "task": {
+  "id": "fresh-134",
+  "source": "fresh",
+  "question": "Сборную какой страны обыграли в финале чемпионата мира по баскетболу среди женщин 2026 года?",
+  "answer": "Франция",
+  "evidence": "Чемпионат мира по баскетболу среди женщин в пятый раз подряд выиграла сборная США, в финале победившая сборную Франции.",
+  "page": "Шаблон:Текущие события на заглавной странице",
+  "url": "https://ru.wikipedia.org/w/index.php?oldid=155341644",
+  "sonnet_answer": "unknown",
+  "agent_ok": null
+ },
+ "answer": "Отлично! Я нашел информацию.\n\nFINAL: Франции",
+ "correct": true,
+ "cost": 0.020340000000000025,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Сборную какой страны обыграли в финале чемпионата мира по баскетболу среди женщин 2026 года?"
+  },
+  {
+   "role": "assistant",
+   "content": "Мне нужно найти информацию о чемпионате мира по баскетболу среди женщин 2026 года.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01CUPD3dHathbAxVpqJJ5ckA",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"чемпионат мира баскетбол женщины 2026 финал\", \"lang\": \"ru\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01CUPD3dHathbAxVpqJJ5ckA",
+   "content": "[Чемпионат мира по баскетболу среди женщин 2026] XX чемпионат мира по баскетболу среди женщин состоялся в Берлине (Германия) с 4 сентября по 13 сентября 2026 года."
+  },
+  {
+   "role": "assistant",
+   "content": "Хорошо, чемпионат проходил в Берлине. Теперь мне нужна более детальная информация о финале.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01WR2Qx44N9EqmD7e21fwBat",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"Чемпионат мира по баскетболу среди женщин 2026\", \"keywords\": \"финал победитель чемпион результат\", \"lang\": \"ru\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01WR2Qx44N9EqmD7e21fwBat",
+   "content": "XX чемпионат мира по баскетболу среди женщин состоялся в Берлине (Германия) с 4 сентября по 13 сентября 2026 года.\nГермания уже принимала женский чемпионат мира по баскетболу 1998 года.\n11 сборных отберутся через квалификационный отборочный турнир к чемпионату мира.\n== Участники чемпионата ==\n===== Четвертьфиналы =====\n===== Полуфиналы ====="
+  },
+  {
+   "role": "assistant",
+   "content": "Информация неполная. Попробую с другими ключевыми словами.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01WdP7qCJ47h9jhEYninz4N6",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"Чемпионат мира по баскетболу среди женщин 2026\", \"keywords\": \"финал США Франция Испания Австралия\", \"lang\": \"ru\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01WdP7qCJ47h9jhEYninz4N6",
+   "content": "===== Четвертьфиналы =====\n===== Полуфиналы =====\n===== Финал ====="
+  },
+  {
+   "role": "assistant",
+   "content": "Информация на русской Википедии оказалась неполной. Попробую на английской.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01MnKDzt9jjexGYTMrFWjYc3",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"2026 FIBA Women's Basketball World Championship final\", \"lang\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01MnKDzt9jjexGYTMrFWjYc3",
+   "content": "[2026 FIBA Women's Basketball World Cup] The 2026 FIBA Women's Basketball World Cup was the 20th edition of the FIBA Women's Basketball World Cup, the quadrennial world championship for women's national basketball teams, sanctioned by FIBA. The tournament was hosted in Berlin, Germany, from 4 to 13 September 2026. This was Germany's second time hosting after previously organising the event in 1998, after being awarded the hosting rights in spring 2023. Sixteen teams took part in the tournament, four more than the previous edition but returning to the same number as was between 1990 and 2018. The hosts automatically qualified. Qualifiers were decided via a mixture of continental champions and teams progressing from the qualifying tournaments. Hungary and Italy returned after long absences. The United States were the four-time defending champion, and retained the title after a finals win over France. It also represented the second final between those teams at an international event since the 2024 Summer Olympics gold medal match."
+  },
+  {
+   "role": "assistant",
+   "content": "Отлично! Я нашел информацию.\n\nFINAL: Франции",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

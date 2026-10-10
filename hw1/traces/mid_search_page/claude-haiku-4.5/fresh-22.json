@@ -1,0 +1,190 @@
+{
+ "task": {
+  "id": "fresh-22",
+  "source": "fresh",
+  "question": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?",
+  "answer": "Clara and the Below",
+  "evidence": "March 17: The Kickstarter campaign for Amphibia creator Matt Braly's indie animated series Clara and the Below was fully funded within 15 minutes of launching.",
+  "page": "2026 in animation",
+  "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I apologize, but I was unable to find information about a specific indie animated series created by Matt Braly that was fully funded on March 17, 2026 through my searches. The search results primarily returned information about Matt Braly's well-known work on Disney's Amphibia, as well as his work on Gravity Falls and Big City Greens, but did not provide details about a crowdfunded indie animated project with that specific funding date.\n\nFINAL: <Unable to determine - insufficient information available>",
+ "correct": false,
+ "cost": 0.03797200000000012,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to search for information about an indie animated series created by Matt Braly that was fully funded on March 17, 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01V68okhiw3QzuFU5w4GBBok",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Matt Braly indie animated series funded March 17 2026\", \"lang\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01V68okhiw3QzuFU5w4GBBok",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search more specifically for Matt Braly's indie animated series and crowdfunding campaign.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01LeqqKhbZX69spPnnmebxtz",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Matt Braly crowdfunding animated series 2026\", \"lang\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01LeqqKhbZX69spPnnmebxtz",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try a different search approach focusing on the specific funding date.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01T4hxeUVTvUifFzABm82CC1",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"\\\"March 17 2026\\\" animated series funded\", \"lang\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01T4hxeUVTvUifFzABm82CC1",
+   "content": "[Crash Course (web series)] Crash Course (sometimes stylized as CrashCourse) is an educational YouTube channel started by John Green and Hank Green (collectively the Green brothers), who became known on YouTube through their Vlogbrothers channel. Crash Course was one of the hundred initial channels funded by YouTube's $100 million original channel initiative. The channel launched a preview on December 2, 2011, and as of March 2026, it has accumulated over 17 million subscribers and 2.2 billion video views. The channel launched with John and Hank presenting their respective World History and Biology series; the early history of the channel continued the trend of John and Hank presenting humanities and science courses, respectively. In November 2014, Hank announced a partnership with PBS Digital Studios, which would allow the channel to produce more courses. As a result, multiple additional hosts joined the show to increase the number of concurrent series. As of 2026, there are over 50 main series of Crash Course, of which John has hosted nine and Hank has hosted seven. Together with Emily Graslie, they also co-hosted Big History. A second channel, Crash Course Kids, was hosted by Sabrina Cruz and completed a series on Science. The first foreign-language course, an Arabic reworking of the original World History series, is hosted by Yasser Abumuailek. The main channel has also begun a series of shorter animated episodes, called Recess, that focus on topics from the previous Crash Course series. A collaboration with Arizona State University titled Study Hall began in 2020, which includes less structured learning in its topics."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search more directly for Matt Braly's new project.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_0174xrmZnejKsuunBhfzMJzm",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Matt Braly new animated project Kickstarter\", \"lang\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_0174xrmZnejKsuunBhfzMJzm",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try searching for \"Amphibia\" creator's next project.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_014HGpbsx6fW2Eo7bLZxAqbL",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Amphibia creator Matt Braly next project indie\", \"lang\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_014HGpbsx6fW2Eo7bLZxAqbL",
+   "content": "[Rebecca Sugar] Rebecca Sugar (born July 9, 1987) is an American animator, storyboard artist, screenwriter, producer, director, and musician. A pioneer of LGBTQ representation in children's television, she is best known for being the creator of the Cartoon Network series Steven Universe, making her the first non-binary person to independently create a series for the network; prior to coming out as non-binary, Sugar was described as the first woman to do so. Prior to the premiere of Steven Universe in 2013, Sugar was a writer and storyboard artist on the animated television series Adventure Time. Her work on the two series has earned her seven Primetime Emmy Award nominations in total. Sugar is bisexual, non-binary, and genderqueer, using both she/her and they/them pronouns. Sugar's queerness has served as an inspiration for her to stress the importance of LGBT representation in the arts, especially in children's entertainment."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try a different search with specific terms about March 2026 indie animation.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01B7y7CmZwDWLuHZYcQBdFnF",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"\\\"Matt Braly\\\" 2026 fully funded\", \"lang\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01B7y7CmZwDWLuHZYcQBdFnF",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try searching for \"Hilda\" as Matt Braly worked on it, or search for indie animated series with crowdfunding dates.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01HFR1WEJvseuHfKs7W3dvP6",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"indie animated series crowdfunding March 2026\", \"lang\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01HFR1WEJvseuHfKs7W3dvP6",
+   "content": "[Angel Studios] Angel Studios, Inc., branded as Angel since September 2025, is an American independent publicly traded media company and film distributor based in Provo, Utah. It distributes films theatrically and operates the Angel streaming platform, where some titles are available free and most require membership in the Angel Guild. The company originated as VidAngel, a film-filtering service that streamed recuts and censored versions of films. In 2021, its founders sold the filtering business and rebranded their content business as Angel Studios, shifting its focus toward crowdfunded film and television production and distribution. The company's current business model centers on the Angel Guild, a paid membership program whose members vote on film and television projects that the company may market and distribute. Angel markets its output as \"values-based entertainment\"; although it is not officially a Christian company, its slate includes numerous faith-based productions. The company gained wider recognition with Sound of Freedom, which grossed more than $250 million worldwide. It formerly distributed the television series The Chosen."
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "I apologize, but I was unable to find information about a specific indie animated series created by Matt Braly that was fully funded on March 17, 2026 through my searches. The search results primarily returned information about Matt Braly's well-known work on Disney's Amphibia, as well as his work on Gravity Falls and Big City Greens, but did not provide details about a crowdfunded indie animated project with that specific funding date.\n\nFINAL: <Unable to determine - insufficient information available>",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

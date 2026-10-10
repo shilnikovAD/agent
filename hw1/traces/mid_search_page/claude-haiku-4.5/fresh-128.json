@@ -1,0 +1,68 @@
+{
+ "task": {
+  "id": "fresh-128",
+  "source": "fresh",
+  "question": "К какому сроку лишения свободы приговорил бывшего президента Косово Хашима Тачи суд в Гааге в сентябре 2026 года? Ответь числом лет.",
+  "answer": "25",
+  "evidence": "Бывший президент Косово Хашим Тачи приговорён Специальным судом по Косову в Гааге к 25 годам лишения свободы за убийства, пытки и незаконные задержания.",
+  "page": "Портал:Текущие события/Последние события",
+  "url": "https://ru.wikipedia.org/w/index.php?oldid=155289332",
+  "sonnet_answer": "unknown",
+  "agent_ok": null
+ },
+ "answer": "Отлично, я нашел информацию. Согласно результатам поиска, 16 сентября 2026 года Гаагским трибуналом (Специальные палаты для Косова) Хашим Тачи был признан виновным в военных преступлениях и приговорен к 25 годам лишения свободы.\n\nFINAL: 25",
+ "correct": true,
+ "cost": 0.008617000000000041,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "К какому сроку лишения свободы приговорил бывшего президента Косово Хашима Тачи суд в Гааге в сентябре 2026 года? Ответь числом лет."
+  },
+  {
+   "role": "assistant",
+   "content": "Мне нужно найти информацию о приговоре Хашиму Тачи в сентябре 2026 года.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01CobewD8g6TqKHgitZZrijc",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Хашим Тачи приговор сентябрь 2026\", \"lang\": \"ru\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_0132moFijaLTfbfdmzpbFYGt",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Hashim Thaçi sentenced September 2026\", \"lang\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01CobewD8g6TqKHgitZZrijc",
+   "content": "[Тачи, Хашим] Хаши́м Та́чи (алб. Hashim Thaçi; род. 24 апреля 1968) — косоварский политик и осуждённый военный преступник. Пятый президент частично признанной Республики Косово с 7 апреля 2016 года до 5 ноября 2020 года. С 17 февраля 2008 года по 9 декабря 2014 года был премьер-министром республики, с декабря 2014 года по апрель 2016 года — первый заместитель председателя правительства и министр иностранных дел в правительстве Исы Мустафы. Один из основных инициаторов провозглашения независимости Косова 17 февраля 2008 года. С 2020 года содержался под стражей в Гааге по обвинению в военных преступлениях. 16 сентября 2026 года Гаагским трибуналом признан виновным в военных преступлениях, включая убийство 96 человек, пытки, незаконные задержания и приговорён к 25 годам лишения свободы."
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_0132moFijaLTfbfdmzpbFYGt",
+   "content": "[Hashim Thaçi] Hashim Thaçi (born 24 April 1968) is a Kosovan politician who was the first prime minister of Kosovo (2008–2014) and the foreign minister and deputy prime minister (2014–2016) in the cabinet led by Isa Mustafa. He also served as president of Kosovo from 2016 until his resignation in 2020. Thaçi is from the region of Drenica in Kosovo, which is where the Kosovo Liberation Army (KLA) originated. He studied philosophy in Pristina before moving to Switzerland, where he joined the KLA in 1993. An Albanian nationalist, he rose through the ranks of the KLA to become leader of the most powerful faction by 1999, during the Rambouillet negotiations. He then joined the interim Kosovo administration after the war. Thaçi became leader of the Democratic Party of Kosovo (PDK), which won the largest share of the vote in the 2007 Kosovo elections. In 2008, Thaçi read the declaration of independence of Kosovo and became its first prime minister. In 2016 he was elected president of Kosovo. Thaçi pursued a pro-American policy while in office. In September 2026, Thaçi was convicted by the Kosovo Specialist Chambers' first instance Trial Panel of war crimes in the Kosovo War. Thaçi's defence lawyers stated that they would appeal the decision. In 2020, the Kosovo Specialist Chambers and Specialist Prosecutor's Office in The Hague filed a ten-count indictment against Thaçi and others, charging them with crimes against humanity and war crimes. To face these charges, Thaçi resigned from the presidency, stating that he did so to \"protect the integrity of the presidency of Kosovo\". He was arrested and pleaded not guilty to all charges. His trial opened in April 2023. The Specialist Prosecutor's Office sought a sentence of 45 years imprisonment for war crimes and persecution of Serb and Roma minorities. In September 2026, he was convicted and sentenced to 25 years in prison for war crimes including the murder of 96 people and the torture of 303 people. The Trial Panel found Thaçi"
+  },
+  {
+   "role": "assistant",
+   "content": "Отлично, я нашел информацию. Согласно результатам поиска, 16 сентября 2026 года Гаагским трибуналом (Специальные палаты для Косова) Хашим Тачи был признан виновным в военных преступлениях и приговорен к 25 годам лишения свободы.\n\nFINAL: 25",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

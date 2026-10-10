@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-131",
+  "source": "fresh",
+  "question": "В какой стране был открыт новый вид кошачьих Leopardus tilcayo?",
+  "answer": "Боливия",
+  "evidence": "В Боливии открыт новый вид кошачьих — Leopardus tilcayo.",
+  "page": "Шаблон:Текущие события на заглавной странице",
+  "url": "https://ru.wikipedia.org/w/index.php?oldid=155428903",
+  "sonnet_answer": "unknown",
+  "agent_ok": null
+ },
+ "answer": "Новый вид кошачьих Leopardus tilcayo был открыт в Аргентине. FINAL: Аргентина.",
+ "correct": false,
+ "cost": 2.940000000001275e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "В какой стране был открыт новый вид кошачьих Leopardus tilcayo?"
+  },
+  {
+   "role": "assistant",
+   "content": "Новый вид кошачьих Leopardus tilcayo был открыт в Аргентине. FINAL: Аргентина.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

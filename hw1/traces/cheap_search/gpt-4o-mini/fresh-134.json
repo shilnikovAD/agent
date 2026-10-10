@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-134",
+  "source": "fresh",
+  "question": "Сборную какой страны обыграли в финале чемпионата мира по баскетболу среди женщин 2026 года?",
+  "answer": "Франция",
+  "evidence": "Чемпионат мира по баскетболу среди женщин в пятый раз подряд выиграла сборная США, в финале победившая сборную Франции.",
+  "page": "Шаблон:Текущие события на заглавной странице",
+  "url": "https://ru.wikipedia.org/w/index.php?oldid=155341644",
+  "sonnet_answer": "unknown",
+  "agent_ok": null
+ },
+ "answer": "Сборную Франции. \n\nFINAL: Франция",
+ "correct": true,
+ "cost": 0.0001345499999999833,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Сборную какой страны обыграли в финале чемпионата мира по баскетболу среди женщин 2026 года?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_c9jUDqwMy68qDIT7J8pJ3STQ",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 Women's Basketball World Cup final\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_c9jUDqwMy68qDIT7J8pJ3STQ",
+   "content": "[2026 FIBA Women's Basketball World Cup final] The 2026 FIBA Women's Basketball World Cup Final was a basketball game that took place on 13 September 2026 at the Berlin Arena in Berlin, Germany, to determine the winner of the 2026 FIBA Women's Basketball World Cup. The United States retained the title after a win over France."
+  },
+  {
+   "role": "assistant",
+   "content": "Сборную Франции. \n\nFINAL: Франция",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

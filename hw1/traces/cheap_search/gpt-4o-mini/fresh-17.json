@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "fresh-17",
+  "source": "fresh",
+  "question": "In spaceflight, what was launched by ISRO on September 3, 2026?",
+  "answer": "EOS-05",
+  "evidence": "On 3 September, ISRO launched EOS-05, India's first geostationary Earth observation satellite. The satellite was launched on PSLV's return-to-flight mission after the failed PSLV-C62 in January 2026.",
+  "page": "2026 in spaceflight",
+  "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "На 3 сентября 2026 года у меня нет информации о запуске, осуществлённом ISRO. Запуск был выполнен 2 сентября 2023 года с аппаратом Адитья-L1, но данных о событиях 2026 года нет. \n\nFINAL: Нет информации о запуске ISRO 3 сентября 2026 года.",
+ "correct": false,
+ "cost": 0.0004702500000000054,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "In spaceflight, what was launched by ISRO on September 3, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_7BcMmLcKR9zFKJvqfpZOEGQk",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"ISRO launch September 3 2026\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_7BcMmLcKR9zFKJvqfpZOEGQk",
+   "content": "[List of spaceflight launches in July–September 2026] This article lists orbital and suborbital launches during the third quarter of the year 2026. For all other spaceflight activities, see 2026 in spaceflight. For launches during the rest of 2026, see List of spaceflight launches in January–March 2026, List of spaceflight launches in April–June 2026, and List of spaceflight launches in October–December 2026."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_MG6tmHDdzZJdW2F1P6M9Ops8",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"ISRO launch September 3 2026\",\"lang\":\"ru\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_MG6tmHDdzZJdW2F1P6M9Ops8",
+   "content": "[Адитья-L1] Адитья-L1 — коронографический космический аппарат для изучения солнечной атмосферы, спроектированный и разработанный Индийской организацией космических исследований (ISRO) и различными другими индийскими исследовательскими институтами. Планируется, что он будет вращаться вокруг Солнца синхронно с Землёй, находясь на гало-орбите возле точки Лагранжа L1 системы «Земля-Солнце», приблизительно на прямой линии, соединяющей Землю и Солнце, на расстоянии около 1,5 млн км (приблизительно 0,01 а. е.) от Земли и, соответственно, 0,99 а. е. от Солнца. Преимуществом такого расположения аппарата является постоянная видимость с него Солнца, никогда не перекрывающегося Землёй или Луной. Это первая индийская миссия для наблюдения за Солнцем. Директор проекта — Нигяр Шаджи. Адитья-L1 был запущен на борту PSLV C57 в 11:50 по восточному стандартному времени 2 сентября 2023 года, через десять дней после успешной посадки лунной миссии ISRO «Чандраян-3». Почти час спустя он успешно достиг намеченной орбиты и отделился от своей четвёртой ступени в 12:57 по восточному стандартному времени."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_lG3BQIgubifMOVX9Dsviwquo",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"ISRO launch on September 3 2026\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_lG3BQIgubifMOVX9Dsviwquo",
+   "content": "[List of spaceflight launches in July–September 2026] This article lists orbital and suborbital launches during the third quarter of the year 2026. For all other spaceflight activities, see 2026 in spaceflight. For launches during the rest of 2026, see List of spaceflight launches in January–March 2026, List of spaceflight launches in April–June 2026, and List of spaceflight launches in October–December 2026."
+  },
+  {
+   "role": "assistant",
+   "content": "На 3 сентября 2026 года у меня нет информации о запуске, осуществлённом ISRO. Запуск был выполнен 2 сентября 2023 года с аппаратом Адитья-L1, но данных о событиях 2026 года нет. \n\nFINAL: Нет информации о запуске ISRO 3 сентября 2026 года.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-136",
+  "source": "fresh",
+  "question": "Кто выиграл женский одиночный разряд Открытого чемпионата США по теннису 2026 года?",
+  "answer": "Елена Рыбакина",
+  "evidence": "Открытый чемпионат США по теннису 2026: победителем мужского турнира стал Александр Зверев, женского — Елена Рыбакина.",
+  "page": "Портал:Текущие события/Последние события",
+  "url": "https://ru.wikipedia.org/w/index.php?oldid=155284195",
+  "sonnet_answer": "unknown",
+  "agent_ok": null
+ },
+ "answer": "Женский одиночный разряд Открытого чемпионата США 2026 года выиграла Елена Рыбакина, победившая в финале Арина Сабаленко со счетом 6–4, 5–7, 6–2. FINAL: Елена Рыбакина",
+ "correct": true,
+ "cost": 0.00022950000000002135,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Кто выиграл женский одиночный разряд Открытого чемпионата США по теннису 2026 года?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_mrPvSLfWyPb1rjkCUuAnkEiK",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"US Open women's singles champion 2026\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_mrPvSLfWyPb1rjkCUuAnkEiK",
+   "content": "[2026 US Open – Women's singles] Elena Rybakina defeated two-time defending champion Aryna Sabalenka in the final, 6–4, 5–7, 6–2 to win the women's singles tennis title at the 2026 US Open. It was her third major title (and second of the season, having also won the Australian Open) and 14th WTA Tour title overall. Rybakina was the sixth women's singles player (since 1988) to win both hardcourt majors in the same year, with Sabalenka and Rybakina also being the first pair of women's singles players to contest both hardcourt major finals in the same year since Steffi Graf and Arantxa Sánchez Vicario in 1994. This was also the first US Open final contested by the top two seeds since 2013. Rybakina attained the world No. 1 singles ranking for the first time by reaching the semifinals, becoming the 30th player to attain the top ranking and the first Kazakhstani player to achieve a world No. 1 ranking in any discipline. Sabalenka, Jessica Pegula, and Coco Gauff were also in contention for the top ranking at the beginning of the tournament. Aged 46, Venus Williams was the oldest woman to compete in the US Open singles main draw since Renée Richards in 1981, after receiving a wildcard into the main draw. Starting at 12:13 AM, the first-round match between Williams and Sofia Kenin set the record for the latest start in tournament history, surpassing the previous record (12:08 AM) set by the third-round match between Sabalenka and Ekaterina Alexandrova in 2024. Zheng Qinwen was the first qualifier to reach the quarterfinals since Emma Raducanu in 2021. All of the top four seeds reached the semifinals for the first time at the US Open since 1975 and at any major since the 2009 Wimbledon Championships. It was also the first time at the US Open since 1998 that the top six seeds reached the quarterfinals. 26 out of the 32 seeds reached the third round, the joint-highest number of seeds at a major since the introduction of the 32-seed system in 2001, equaling the 2007 French Open."
+  },
+  {
+   "role": "assistant",
+   "content": "Женский одиночный разряд Открытого чемпионата США 2026 года выиграла Елена Рыбакина, победившая в финале Арина Сабаленко со счетом 6–4, 5–7, 6–2. FINAL: Елена Рыбакина",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

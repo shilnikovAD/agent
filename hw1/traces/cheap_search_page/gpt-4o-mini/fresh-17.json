@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-17",
+  "source": "fresh",
+  "question": "In spaceflight, what was launched by ISRO on September 3, 2026?",
+  "answer": "EOS-05",
+  "evidence": "On 3 September, ISRO launched EOS-05, India's first geostationary Earth observation satellite. The satellite was launched on PSLV's return-to-flight mission after the failed PSLV-C62 in January 2026.",
+  "page": "2026 in spaceflight",
+  "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "On September 3, 2026, ISRO launched EOS-05, India's first geostationary Earth observation satellite. \n\nFINAL: EOS-05",
+ "correct": true,
+ "cost": 0.00034079999999997446,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "In spaceflight, what was launched by ISRO on September 3, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_HdqugmOzGj2s0XnJE4xfUyB5",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"ISRO September 3 2026 launch\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_HdqugmOzGj2s0XnJE4xfUyB5",
+   "content": "[List of spaceflight launches in July–September 2026] This article lists orbital and suborbital launches during the third quarter of the year 2026. For all other spaceflight activities, see 2026 in spaceflight. For launches during the rest of 2026, see List of spaceflight launches in January–March 2026, List of spaceflight launches in April–June 2026, and List of spaceflight launches in October–December 2026."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_WDvXLTs5AflATQtgvy6n2Ap0",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in spaceflight\",\"keywords\":\"ISRO September 3\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_WDvXLTs5AflATQtgvy6n2Ap0",
+   "content": "On 3 September, ISRO launched EOS-05, India's first geostationary Earth observation satellite. The satellite was launched on PSLV's return-to-flight mission after the failed PSLV-C62 in January 2026.\nOn 19 May, ESA and CAS launched their joint heliophysics mission SMILE to study the dynamic interaction between solar wind and Earth's magnetosphere. The spacecraft reached its final science orbit on 20 June and started science observations on 23 September.\nThe joint ESA-JAXA mission BepiColombo is expected to enter orbit around Mercury in late 2026. The arrival operations began on 3 September 2026 with the separation of the propulsion module from the remaining spacecraft.\nOn 22 March, Roscosmos launched Progress MS-33 to ISS, the first space station uncrewed cargo flight of the year and the first launch from the Baikonur Cosmodrome Site 31 after substantial repairs necessitated by the damage caused by the November 2025 launch of Soyuz MS-28. Further resupply missions to ISS were: Cygnus NG-24 on 11 April, Progress MS-34 on 25 April, SpaceX CRS-34 on 15 May, and Pro\nISRO aims to launch Gaganyaan-1, India's first uncrewed orbital test flight to support human exploration missions.\nSpaceX continued testing the Starship system, with a partially successful suborbital Flight 12 in May, a mostly successful suborbital  Flight 13 in July, and a mostly successful orbital Flight 14 in September."
+  },
+  {
+   "role": "assistant",
+   "content": "On September 3, 2026, ISRO launched EOS-05, India's first geostationary Earth observation satellite. \n\nFINAL: EOS-05",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-136",
+  "source": "fresh",
+  "question": "Кто выиграл женский одиночный разряд Открытого чемпионата США по теннису 2026 года?",
+  "answer": "Елена Рыбакина",
+  "evidence": "Открытый чемпионат США по теннису 2026: победителем мужского турнира стал Александр Зверев, женского — Елена Рыбакина.",
+  "page": "Портал:Текущие события/Последние события",
+  "url": "https://ru.wikipedia.org/w/index.php?oldid=155284195",
+  "sonnet_answer": "unknown",
+  "agent_ok": null
+ },
+ "answer": "Победителем женского одиночного разряда Открытого чемпионата США 2026 года стала Елена Рыбакина, она одержала победу над defending champion Арина Сабаленка со счетом 6-4, 5-7, 6-2. \n\nFINAL: Елена Рыбакина",
+ "correct": true,
+ "cost": 0.000350550000000005,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Кто выиграл женский одиночный разряд Открытого чемпионата США по теннису 2026 года?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Pa3BSwwqKlWromAopMQlqrfy",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 US Open women's singles winner\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Pa3BSwwqKlWromAopMQlqrfy",
+   "content": "[2026 US Open (tennis)] The 2026 US Open was the 146th edition of tennis' US Open, and the fourth and final Grand Slam event of the year. It was held on the outdoor hard courts at the USTA Billie Jean King National Tennis Center in New York City. Carlos Alcaraz and Aryna Sabalenka were the men's and women's singles defending champions, but could not defend their titles."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_zzvtDmApZSoGDkM4eoDrtYAA",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 US Open (tennis)\",\"keywords\":\"women's singles winner\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_zzvtDmApZSoGDkM4eoDrtYAA",
+   "content": "On the women's side of singles, Elena Rybakina defeated defending champion Aryna Sabalenka 6-4, 5-7, 6-2 to win her first US Open women's singles title. The victory was Rybakina's third Grand Slam title and her second major championship of 2026. A notable highlight was that she received the trophy from the Russian retired tennis player Maria Sharapova. The tournament organizers allowed Sharapova t\nThe 2026 US Open was the 146th edition of tennis' US Open, and the fourth and final Grand Slam event of the year. It was held on the outdoor hard courts at the USTA Billie Jean King National Tennis Center in New York City. Carlos Alcaraz and Aryna Sabalenka were the men's and women's singles defending champions, but could not defend their titles.\nWomen's singles\nIn other singles highlights, Zheng Qinwen came from 0–5 down in a set in consecutive matches to eventually win the sets and the matches. All four women's quarterfinal matches were very competitive and went the three-set distance.\n=== Women's singles ===\n=== Wheelchair women's singles ==="
+  },
+  {
+   "role": "assistant",
+   "content": "Победителем женского одиночного разряда Открытого чемпионата США 2026 года стала Елена Рыбакина, она одержала победу над defending champion Арина Сабаленка со счетом 6-4, 5-7, 6-2. \n\nFINAL: Елена Рыбакина",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-135",
+  "source": "fresh",
+  "question": "Кто выиграл мужской одиночный разряд Открытого чемпионата США по теннису 2026 года?",
+  "answer": "Александр Зверев",
+  "evidence": "Открытый чемпионат США по теннису 2026: победителем мужского турнира стал Александр Зверев, женского — Елена Рыбакина.",
+  "page": "Портал:Текущие события/Последние события",
+  "url": "https://ru.wikipedia.org/w/index.php?oldid=155284195",
+  "sonnet_answer": "unknown",
+  "agent_ok": null
+ },
+ "answer": "Мужской одиночный разряд Открытого чемпионата США 2026 года выиграл Александр Зверев, который в финале победил Бена Шелтона со счётом 6–3, 7–6(7–2), 5–7, 6–2. \n\nFINAL: Александр Зверев",
+ "correct": true,
+ "cost": 0.00026954999999997953,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Кто выиграл мужской одиночный разряд Открытого чемпионата США по теннису 2026 года?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ZwohsGR4NTBp3afpCWuEIOaK",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 US Open men's singles champion\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ZwohsGR4NTBp3afpCWuEIOaK",
+   "content": "[2026 US Open – Men's singles] Alexander Zverev defeated Ben Shelton in the final, 6–3, 7–6(7–2), 5–7, 6–2 to win the men's singles tennis title at the 2026 US Open. It was his second major title, following the 2026 French Open. Zverev was the fourth man in the Open Era to win his first two majors in the same year (after Jimmy Connors in 1974, Guillermo Vilas in 1977, and Jannik Sinner in 2024), and the first German man to win the US Open since Boris Becker in 1989. Carlos Alcaraz was the defending champion, but lost in the quarterfinals to Shelton. Their quarterfinal match marked the latest finish in tournament history, at 3:33 a.m., surpassing the previous record from the 2022 quarterfinal between Alcaraz and Sinner. Novak Djokovic's first-round defeat to Mariano Navone marked only his third career loss in the opening round of a major, his first opening-round loss at the US Open, and his earliest loss at a major since the 2006 Australian Open. This marked the first time that none of the Big Three reached the second round of a major since the 2003 French Open. As a result of his loss, Djokovic dropped out of the top 10 in the ATP rankings for the first time since July 2018, marking the first time since October 2002 in which none of the Big Three were ranked in the top 10. Arthur Géa was the first lucky loser to reach the fourth round since Corentin Moutet in 2022, and the second to do so in the Open Era. With his win over 12th seed Rafael Jódar, Bu Yunchaokete became the first lucky loser to defeat a top 15 seed in the first round of the US Open in the Open Era. This tournament marked the first absence from a major of world No. 1 Sinner, since making his major debut at the 2019 US Open. It was the first time the reigning world No. 1 did not participate at the US Open. This tournament marked the final major appearances of 2016 champion, three-time major champion and former world No. 3 Stan Wawrinka, and former world No. 6 and 2016 semifinalist Gaël Monfils. Wawrinka"
+  },
+  {
+   "role": "assistant",
+   "content": "Мужской одиночный разряд Открытого чемпионата США 2026 года выиграл Александр Зверев, который в финале победил Бена Шелтона со счётом 6–3, 7–6(7–2), 5–7, 6–2. \n\nFINAL: Александр Зверев",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

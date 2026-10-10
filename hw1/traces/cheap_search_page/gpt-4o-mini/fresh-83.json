@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-83",
+  "source": "fresh",
+  "question": "What type of device was attempted to be ignited near a Bank of America building in France in March 2026?",
+  "answer": "improvised explosive device",
+  "evidence": "28 March – A man is detained and another is at large after trying to ignite an improvised explosive device near a Bank of America building in Paris.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "An improvised explosive device was attempted to be ignited near a Bank of America building in Paris in March 2026. \n\nFINAL: Improvised explosive device",
+ "correct": true,
+ "cost": 0.00029144999999999865,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What type of device was attempted to be ignited near a Bank of America building in France in March 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_1hLllUxlBfZAftZjpetnXneS",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"device ignited near Bank of America building France March 2026\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_1hLllUxlBfZAftZjpetnXneS",
+   "content": "[2026 in France] Events in the year 2026 in France."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_dQl6os5fpNhidblWPyXO4GAu",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in France\",\"keywords\":\"device ignited Bank of America\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_dQl6os5fpNhidblWPyXO4GAu",
+   "content": "28 March – A man is detained and another is at large after trying to ignite an improvised explosive device near a Bank of America building in Paris.\n9 June – France prohibits Israeli Finance Minister Bezalel Smotrich from entering the country, citing  promotion of West Bank annexation and \"re-colonization\" in Gaza.\nA total solar eclipse occurs at the Moon's descending node of the orbit in North America and Europe. The total eclipse passes over the Arctic, Greenland, Iceland, the Atlantic Ocean, northeastern Portugal and northern Spain.\nFrance sanctions products from Israeli settlements in the West Bank."
+  },
+  {
+   "role": "assistant",
+   "content": "An improvised explosive device was attempted to be ignited near a Bank of America building in Paris in March 2026. \n\nFINAL: Improvised explosive device",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

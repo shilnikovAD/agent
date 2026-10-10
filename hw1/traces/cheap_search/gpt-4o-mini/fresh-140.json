@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-140",
+  "source": "fresh",
+  "question": "Какой фильм получил «Золотого льва» на 83-м Венецианском кинофестивале в 2026 году?",
+  "answer": "Неизвестная женщина",
+  "evidence": "83-й Венецианский кинофестиваль: «Золотого льва» получил фильм «Неизвестная женщина» датского режиссёра Май эль-Туки.",
+  "page": "Портал:Текущие события/Последние события",
+  "url": "https://ru.wikipedia.org/w/index.php?oldid=155216666",
+  "sonnet_answer": "unknown",
+  "agent_ok": null
+ },
+ "answer": "На 83-м Венецианском кинофестивале в 2026 году «Золотого льва» получил фильм «Woman Unknown» режиссера Мэй эль-Тукхи. \n\nFINAL: Woman Unknown",
+ "correct": false,
+ "cost": 0.00020760000000000223,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Какой фильм получил «Золотого льва» на 83-м Венецианском кинофестивале в 2026 году?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_RSaLnVOnZsHIMeV4mI089bMp",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"83rd Venice Film Festival 2026 Golden Lion winner\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_RSaLnVOnZsHIMeV4mI089bMp",
+   "content": "[83rd Venice International Film Festival] The 83rd annual Venice International Film Festival took place from 2 to 12 September 2026, at Venice Lido in Italy. American actress and filmmaker Maggie Gyllenhaal served as Jury President for the main competition. Italian actors Greta Scarano and Nicolas Maupas hosted the opening and closing ceremonies. The Golden Lion was awarded to Woman Unknown by May el-Toukhy. American actress Ellen Burstyn and American actor and filmmaker George Clooney received the Golden Lion for Lifetime Achievement during the festival. The festival's full line-up was announced on 23 July, but Yuval Abraham and Rachel Szor's NAZA was added to the main competition only on 24 August, following safety concerns. While the selection of DAU, directed by Russian dissident filmmaker Ilya Khrzhanovsky, was condemned by Ukrainian official authorities for supposedly ties with the Kremlin. The statement was rebuffed by the festival's organization, which included a strong response from its artistic director Alberto Barbera, who called an unacceptable manipulation of reality. Shortly before the festival's opening week, the main competition jury's press conference was cancelled without further explanation in an unprecedented decision. According to Deadline, the move came after highly charged press conferences at the 76th Berlin International Film Festival, where jurors and talent were repeatedly inquired by journalists about global politics, especially the Gaza war. Ultimately, the press conference was rescheduled to 2 September, the first day of the festival. Meanwhile, Roger Waters, Annie Ernaux, Matteo Garrone, Jasmine Trinca, Saleh Bakri, Céline Sciamma, among many other industry talents, signed an open letter organized by the Venice4Palestine collective calling the festival to take concrete action in support of Palestine, in the wake of the selection of two Palestinian films (Citizen Osama and Conversation with the Sea) about the ongoing conflict. The festi"
+  },
+  {
+   "role": "assistant",
+   "content": "На 83-м Венецианском кинофестивале в 2026 году «Золотого льва» получил фильм «Woman Unknown» режиссера Мэй эль-Тукхи. \n\nFINAL: Woman Unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

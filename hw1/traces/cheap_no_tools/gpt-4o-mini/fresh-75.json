@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-75",
+  "source": "fresh",
+  "question": "Where were two senior doctors arrested over suspicious deaths of newborn infants on January 14, 2026?",
+  "answer": "Novokuznetsk",
+  "evidence": "14 January – Two senior doctors are arrested over the suspicious deaths of nine newborn infants at a maternity hospital in Novokuznetsk from 4 to 12 January.",
+  "page": "2026 in Russia",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Russia",
+  "sonnet_answer": "Rajasthan, India",
+  "agent_ok": false
+ },
+ "answer": "I'm unable to provide real-time news or events occurring after my last training cut-off in October 2023. Therefore, I cannot give you information about incidents that took place in January 2026. Please check reliable news sources for the latest updates. \n\nFINAL: Unable to provide information.",
+ "correct": false,
+ "cost": 4.9199999999999244e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Where were two senior doctors arrested over suspicious deaths of newborn infants on January 14, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'm unable to provide real-time news or events occurring after my last training cut-off in October 2023. Therefore, I cannot give you information about incidents that took place in January 2026. Please check reliable news sources for the latest updates. \n\nFINAL: Unable to provide information.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-25",
+  "source": "fresh",
+  "question": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?",
+  "answer": "\"open war\"",
+  "evidence": "February 26 – 2026 Afghanistan–Pakistan war: The government of Pakistan declares \"open war\" against the Taliban in Afghanistan.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I need to check the details about events in the Afghanistan-Pakistan conflict around February 26, 2026.\n\nMy knowledge cutoff is July 2025, so I don't have information about events that occurred in February 2026.\n\nFINAL: I don't have information about events from February 2026, as my knowledge cutoff is July 2025.",
+ "correct": false,
+ "cost": 0.0016110000000000013,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to check the details about events in the Afghanistan-Pakistan conflict around February 26, 2026.\n\nMy knowledge cutoff is July 2025, so I don't have information about events that occurred in February 2026.\n\nFINAL: I don't have information about events from February 2026, as my knowledge cutoff is July 2025.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}
