@@ -1,6 +1,16 @@
 requests
+httpx
 pydantic
 python-dotenv
 pandas
+numpy
 matplotlib
 jupyter
+# ДЗ 2 и ДЗ 4: векторная база
+pymilvus
+# Milvus Lite (MILVUS_URI=./file.db) вместо Docker-сервера, только Linux и macOS:
+# pymilvus[milvus_lite]
+# ДЗ 3: фреймворк
+langgraph>=1.0
+langchain
+langchain-openai

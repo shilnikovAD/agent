@@ -11,3 +11,13 @@ volumes/
 
 # кэш эмбеддингов, пересобирается ноутбуком
 emb_cache.npz
+
+# артефакты прогонов: журнал диалогов, память, локальная база Milvus Lite
+episodes.jsonl
+facts.json
+*.db
+
+# журнал отладки и черновики бота
+runs/dev/
+runs/pending*.json*
+runs/spend.json

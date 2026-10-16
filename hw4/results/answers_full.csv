@@ -1,0 +1,586 @@
+config,model,id,source,correct,found,refused,cost,answer,gold
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-125,own,False,False,True,0.001611,NOT_FOUND,Больница Питт
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-126,own,False,False,True,0.001557,NOT_FOUND,Бухта вдов
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-127,own,False,False,True,0.001791,NOT_FOUND,ГКС. Сент-Луис
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-128,own,False,False,True,0.002142,NOT_FOUND,25
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-129,own,False,False,True,0.001503,NOT_FOUND,Специальный суд по Косову
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-130,own,False,False,True,0.001536,NOT_FOUND,Leopardus tilcayo
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-131,own,False,False,False,0.00138,Эквадор,Боливия
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-132,own,False,False,True,0.001428,NOT_FOUND,Социал-демократическая рабочая партия
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-133,own,False,False,True,0.0016650000000000002,NOT_FOUND,США
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-134,own,False,False,True,0.0014790000000000003,NOT_FOUND,Франция
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-135,own,False,False,True,0.0013530000000000003,NOT_FOUND,Александр Зверев
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-136,own,False,False,True,0.0013499999999999999,NOT_FOUND,Елена Рыбакина
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-137,own,False,False,True,0.001356,NOT_FOUND,первая ракетка мира
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-138,own,False,False,True,0.001458,NOT_FOUND,"13,2"
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-139,own,False,False,True,0.0015599999999999998,NOT_FOUND,Амодеи
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-140,own,False,False,True,0.0012989999999999998,NOT_FOUND,Неизвестная женщина
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-141,own,False,False,True,0.008727000000000002,NOT_FOUND,Май эль-Туки
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-142,own,False,False,True,0.005613,NOT_FOUND,Дау
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-143,own,False,False,True,0.005688,NOT_FOUND,Джон Малкович
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-144,own,False,False,True,0.0010469999999999998,NOT_FOUND,76
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-0,generated,False,False,False,0.002112,Мухтар Алтынбаев,Даурен Косанов
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-8,generated,False,False,False,0.00234,153 пассажира,174
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-9,generated,False,False,True,0.004397999999999999,NOT_FOUND,«Л.Е.В. Менеджмент»
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-11,generated,True,False,False,0.0021089999999999998,Для саудовских военных кораблей (кораблей саудовской коалиции).,саудовских
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-12,generated,False,False,False,0.001731,Грегу Абелю (Greg Abel),Грэму Баффетту
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-13,generated,False,False,True,0.001947,NOT_FOUND,Эндрю ДеЯнг
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-14,generated,False,False,True,0.0012390000000000005,NOT_FOUND,25
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-15,generated,False,False,False,0.0020820000000000005,Дэвид Зейбел (David Zabel),Кирстен Пьер-Гейфман
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-16,generated,False,False,True,0.0016170000000000004,NOT_FOUND,Салли Ричардсон-Уитфилд
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-17,generated,False,False,True,0.0013080000000000001,NOT_FOUND,Ли Сон Джин
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-18,generated,False,False,True,0.0015989999999999997,NOT_FOUND,Джеффа Хиллера
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-19,generated,False,False,True,0.0017669999999999995,NOT_FOUND,Тим Робинсон
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-20,generated,False,False,True,0.0012960000000000003,NOT_FOUND,Джейк Шрайер
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-21,generated,False,False,True,0.001653,NOT_FOUND,Маришка Харгитей
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-22,generated,False,False,False,0.0017909999999999992,tigrillo,тилька́йо
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-23,generated,False,False,False,0.009254999999999998,"По данным полногеномного молекулярно-филогенетического анализа, эволюционная лин","1,4 млн лет назад"
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-24,generated,False,False,False,0.002412000000000001,"Pilpintuwasi (приют для диких животных в Икитосе, Перу)",«Сенда-Верде»
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-25,generated,False,False,True,0.002286,NOT_FOUND,двух
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-27,generated,False,False,True,0.0015510000000000003,NOT_FOUND,Leopardus tigrinus antisuyo
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-30,generated,False,False,True,0.005051999999999999,NOT_FOUND,"около 1,5 километров"
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-31,generated,False,False,False,0.0039900000000000005,3,три попытки
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-32,generated,False,False,True,0.002319,NOT_FOUND,Андреасу Норлену
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-33,generated,False,False,True,0.0014099999999999998,NOT_FOUND,162
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-34,generated,True,False,False,0.0017219999999999996,Ульф Кристерссон,Ульф Кристерссон
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-35,generated,True,False,False,0.0008970000000000002,349,349
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-36,generated,False,False,False,0.001497,4 раза,четырежды
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-37,generated,False,False,True,0.001641,NOT_FOUND,200
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-38,generated,False,False,True,0.0012840000000000004,NOT_FOUND,"84,89 %"
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-39,generated,False,False,True,0.0024990000000000012,NOT_FOUND,до 12 октября
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-40,generated,False,False,True,0.0015390000000000004,NOT_FOUND,Берлине
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-41,generated,False,False,True,0.00102,NOT_FOUND,12 августа 2024 года
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-42,generated,False,False,True,0.0012510000000000004,NOT_FOUND,28 апреля 2023 года
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-43,generated,False,False,True,0.004368,NOT_FOUND,11
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-44,generated,False,False,False,0.003084,5,четырёх
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-45,generated,False,False,False,0.0015630000000000002,Февраль 2023 года,апреле 2023 года
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-47,generated,False,False,True,0.0014459999999999994,NOT_FOUND,6-2
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-48,generated,False,False,True,0.0013769999999999998,NOT_FOUND,с 24 по 26 августа
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-49,generated,False,False,True,0.001398,NOT_FOUND,Якуб Меншик
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-50,generated,False,False,False,0.004179000000000002,146-м,146-й
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-51,generated,False,False,True,0.0013710000000000007,NOT_FOUND,64 команды
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-55,generated,False,False,True,0.001641,NOT_FOUND,20 июля 2026 года
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-58,generated,False,False,False,0.002328,Янник Синнер (победитель US Open 2025),Карлос Алькарас
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-59,generated,False,False,True,0.0014160000000000006,NOT_FOUND,Маттео Берреттини
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-64,generated,False,False,True,0.0014009999999999995,NOT_FOUND,третий
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-70,generated,False,False,False,0.006711000000000002,Чжэн Циньвэнь,Рыбакина
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-71,generated,False,False,True,0.0016139999999999991,NOT_FOUND,20 июля 2026 года
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-73,generated,False,False,True,0.006336000000000001,NOT_FOUND,Мэгги Джилленхол
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-74,generated,False,False,True,0.008304,NOT_FOUND,Мариано Льинас
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-75,generated,False,False,True,0.010533,NOT_FOUND,Бернар Огюст Куэмо Янху
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-76,generated,False,False,True,0.0035400000000000015,NOT_FOUND,Элизабет Чай Васархели и Джимми Чин
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-77,generated,False,False,True,0.010422,NOT_FOUND,La maison du vent
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-78,generated,False,False,True,0.0050040000000000015,NOT_FOUND,Рубайят Хоссейн
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-80,generated,False,False,False,0.0019319999999999997,Валерио Миели,Елена Максимович
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-83,generated,False,False,True,0.001181999999999999,NOT_FOUND,«Родина»
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-84,generated,False,False,False,0.004154999999999999,"Государственный долг США вырос примерно в 1,8 раза (с ~19,9 трлн долларов в янва",2 раза
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-85,generated,False,False,True,0.0014909999999999993,NOT_FOUND,47 человек
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-86,generated,False,False,True,0.0015510000000000003,NOT_FOUND,около 53 %
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-87,generated,False,False,True,0.0012959999999999985,NOT_FOUND,около 20
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-88,generated,False,False,True,0.001413000000000001,NOT_FOUND,"7,4"
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-89,generated,False,False,True,0.0010350000000000012,NOT_FOUND,2 011
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-90,generated,False,False,True,0.0013920000000000009,NOT_FOUND,«Дарница»
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-91,generated,False,False,True,0.0018269999999999988,NOT_FOUND,Фатиму эль-Мансури
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-92,generated,False,False,True,0.0014279999999999987,NOT_FOUND,услуги связи и вычислительные мощности для ВСУ
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-93,generated,False,False,True,0.002180999999999999,NOT_FOUND,детсад
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-94,generated,False,False,True,0.0014550000000000014,NOT_FOUND,Перовский суд
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-95,generated,False,False,True,0.0016830000000000005,NOT_FOUND,дистанционное обучение
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-96,generated,False,False,True,0.001181999999999999,NOT_FOUND,40 матчей
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-97,generated,False,False,True,0.0015900000000000011,NOT_FOUND,Дмитрий Махонин
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-98,generated,False,False,True,0.001292999999999999,NOT_FOUND,АрселорМиттал Кривой Рог
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-100,generated,False,False,True,0.001398,NOT_FOUND,646
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-102,generated,True,False,False,0.0015480000000000008,3 года,3 года
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-103,generated,False,False,True,0.0015000000000000013,NOT_FOUND,Игорь Шестёркин
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-104,generated,False,False,True,0.0013710000000000007,NOT_FOUND,"3,07 %"
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-105,generated,False,False,True,0.0015960000000000002,NOT_FOUND,пожар
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-106,generated,False,False,True,0.0011070000000000003,NOT_FOUND,Хокон VIII
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-107,generated,True,False,False,0.0020100000000000014,3 ноября 2026 года,3 ноября
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-108,generated,False,False,True,0.0013559999999999996,NOT_FOUND,более 300 человек
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-109,generated,False,False,True,0.0013890000000000013,NOT_FOUND,42
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-110,generated,False,False,True,0.0021119999999999993,NOT_FOUND,19 октября
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-111,generated,False,False,True,0.002009999999999998,NOT_FOUND,Силия Флорес
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-112,generated,False,False,True,0.0019920000000000007,NOT_FOUND,Ялтинская европейская стратегия
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-114,generated,False,False,False,0.006594000000000003,"UCN-01 (7-гидроксистауроспорин) — ингибитор Chk1, лишающий раковые клетки способ",МА203
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-115,generated,False,False,True,0.001691999999999999,NOT_FOUND,универсальному закону турбулентности
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-116,generated,False,False,True,0.0014849999999999967,NOT_FOUND,"0,3-0,4 долей секунды"
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-117,generated,True,False,False,0.006252000000000001,Рентгеновская томография (рентгеновское сканирование / X-ray phase-contrast tomo,рентгеновское сканирование
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-118,generated,False,False,True,0.005793000000000003,NOT_FOUND,16
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-120,generated,False,False,True,0.0016529999999999982,NOT_FOUND,кольцевые фрагменты ДНК вне хромосом
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-121,generated,True,False,False,0.0024209999999999995,Фуданьский университет (Fudan University),Фуданьском университете
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-122,generated,False,False,True,0.001245000000000003,NOT_FOUND,барион Ξcc⁺
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-123,generated,False,False,False,0.0009720000000000006,Рим,Бирмингем
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-124,generated,False,False,True,0.0014909999999999993,NOT_FOUND,Таллин
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-125,generated,False,False,True,0.0015329999999999996,NOT_FOUND,Армения
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-126,generated,True,False,False,0.002244000000000003,Германия и Австрия,Германия/Австрия
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-127,generated,False,False,True,0.001580999999999999,NOT_FOUND,Синьтай
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-128,generated,False,False,True,0.0012780000000000014,NOT_FOUND,Сан-Жуан-да-Мадейра
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-130,generated,False,False,False,0.0010500000000000023,Загреб,Белград
+"сильная модель, без инструментов",claude-sonnet-4.6,gen-131,generated,False,False,True,0.001131,NOT_FOUND,Стоунхейвен
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,fresh-125,own,False,False,True,0.00110205,NOT_FOUND,Больница Питт
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,fresh-126,own,True,False,False,0.0009876000000000002,Бухта вдов,Бухта вдов
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,fresh-127,own,False,False,False,0.0007956,Widow's Bay,ГКС. Сент-Луис
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,fresh-128,own,True,False,False,0.00037950000000000006,25,25
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,fresh-129,own,False,False,False,0.0011174999999999996,Международным уголовным судом в Гааге.,Специальный суд по Косову
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,fresh-130,own,True,False,False,0.0003516000000000005,Leopardus tilcayo,Leopardus tilcayo
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,fresh-131,own,True,False,False,0.00014055000000000057,Боливия,Боливия
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,fresh-132,own,True,False,False,0.00019140000000000042,Социал-демократическая рабочая партия,Социал-демократическая рабочая партия
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,fresh-133,own,True,False,False,0.00016259999999999972,США,США
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,fresh-134,own,True,False,False,0.00016259999999999972,Франция,Франция
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,fresh-135,own,True,False,False,0.0003913500000000004,Александр Зверев,Александр Зверев
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,fresh-136,own,True,False,False,0.00039165000000000033,Елена Рыбакина,Елена Рыбакина
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,fresh-137,own,True,False,False,0.00040769999999999956,первая ракетка мира,первая ракетка мира
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,fresh-138,own,False,False,True,0.0005506500000000006,NOT_FOUND,"13,2"
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,fresh-139,own,True,False,False,0.0011250000000000001,Дарио Амодеи,Амодеи
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,fresh-140,own,True,False,False,0.00017220000000000082,Неизвестная женщина,Неизвестная женщина
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,fresh-141,own,True,False,False,0.00017009999999999942,Май эль-Туки,Май эль-Туки
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,fresh-142,own,True,False,False,0.0002988000000000001,ДАУ,Дау
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,fresh-143,own,True,False,False,0.00028514999999999964,Джон Малкович,Джон Малкович
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,fresh-144,own,False,False,True,0.0007037999999999992,NOT_FOUND,76
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-0,generated,True,False,False,0.0001960499999999997,Даурен Косанов,Даурен Косанов
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-8,generated,True,False,False,0.00022619999999999932,174,174
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-9,generated,False,False,True,0.0005281499999999998,NOT_FOUND,«Л.Е.В. Менеджмент»
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-11,generated,False,False,False,0.001329600000000002,"хуситы ограничили судоходство для судов, связанных с Израилем.",саудовских
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-12,generated,False,False,True,0.0012301499999999993,NOT_FOUND,Грэму Баффетту
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-13,generated,False,False,True,0.0009937500000000016,NOT_FOUND,Эндрю ДеЯнг
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-14,generated,False,False,False,0.0005618999999999989,13 номинаций,25
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-15,generated,False,False,False,0.0009876,Валери Чу,Кирстен Пьер-Гейфман
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-16,generated,False,False,True,0.0006789000000000031,NOT_FOUND,Салли Ричардсон-Уитфилд
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-17,generated,False,False,True,0.0010459499999999969,NOT_FOUND,Ли Сон Джин
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-18,generated,False,False,True,0.0006610499999999998,NOT_FOUND,Джеффа Хиллера
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-19,generated,False,False,True,0.0007181999999999987,NOT_FOUND,Тим Робинсон
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-20,generated,False,False,True,0.0009157499999999999,NOT_FOUND,Джейк Шрайер
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-21,generated,True,False,False,0.0001864500000000012,Маришка Харгитей,Маришка Харгитей
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-22,generated,False,False,False,0.00025110000000000063,тилькайо,тилька́йо
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-23,generated,False,False,True,0.0006355499999999986,NOT_FOUND,"1,4 млн лет назад"
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-24,generated,True,False,False,0.00015959999999999933,Сенда-Верде,«Сенда-Верде»
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-25,generated,False,False,True,0.0003032999999999994,NOT_FOUND,двух
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-27,generated,False,False,False,0.0003589500000000037,tilcayo,Leopardus tigrinus antisuyo
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-30,generated,True,False,False,0.00045690000000000314,"1,5 километра","около 1,5 километров"
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-31,generated,False,False,True,0.0011758499999999956,NOT_FOUND,три попытки
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-32,generated,False,False,True,0.001002450000000002,NOT_FOUND,Андреасу Норлену
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-33,generated,False,False,True,0.0014630999999999984,NOT_FOUND,162
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-34,generated,True,False,False,0.00032909999999999884,Ульф Кристерссон,Ульф Кристерссон
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-35,generated,True,False,False,0.0003257999999999976,349,349
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-36,generated,False,False,False,0.00035895000000000024,4,четырежды
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-37,generated,False,False,True,0.0010040999999999974,NOT_FOUND,200
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-38,generated,False,False,True,0.0009676500000000005,NOT_FOUND,"84,89 %"
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-39,generated,False,False,True,0.0010708500000000017,NOT_FOUND,до 12 октября
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-40,generated,True,False,False,0.00016694999999999904,Берлин,Берлине
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-41,generated,True,False,False,0.0002437500000000009,12 августа 2024 года.,12 августа 2024 года
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-42,generated,False,False,False,0.0003248999999999995,Германия получила право в 2023 году.,28 апреля 2023 года
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-43,generated,False,False,False,0.0004922999999999976,16 команд,11
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-44,generated,False,False,False,0.00038414999999999977,16,четырёх
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-45,generated,False,False,False,0.0003152999999999975,весна 2023,апреле 2023 года
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-47,generated,True,False,False,0.0009949500000000014,6–2,6-2
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-48,generated,False,False,False,0.0007046999999999956,29 августа - 10 сентября,с 24 по 26 августа
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-49,generated,True,False,False,0.00020850000000000035,Якуб Меншик,Якуб Меншик
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-50,generated,True,False,False,0.00019335000000000185,146-й,146-й
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-51,generated,False,False,True,0.0008344500000000005,NOT_FOUND,64 команды
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-55,generated,False,False,True,0.0010069499999999995,NOT_FOUND,20 июля 2026 года
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-58,generated,False,False,False,0.00024869999999999753,Александр Зверев,Карлос Алькарас
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-59,generated,True,False,False,0.001136100000000001,Маттео Берреттини,Маттео Берреттини
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-64,generated,False,False,False,0.00029055000000000747,3,третий
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-70,generated,False,False,False,0.0011043000000000025,Ига Свёнтек,Рыбакина
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-71,generated,False,False,True,0.0009225000000000136,NOT_FOUND,20 июля 2026 года
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-73,generated,True,False,False,0.0001666500000000043,Мэгги Джилленхол,Мэгги Джилленхол
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-74,generated,False,False,True,0.0009002999999999997,NOT_FOUND,Мариано Льинас
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-75,generated,True,False,False,0.0003427500000000028,Бернар Огюст Куэмо Янху,Бернар Огюст Куэмо Янху
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-76,generated,False,False,True,0.001016549999999991,NOT_FOUND,Элизабет Чай Васархели и Джимми Чин
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-77,generated,False,False,False,0.0004483499999999932,Дом ветра,La maison du vent
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-78,generated,False,False,True,0.0010680000000000064,NOT_FOUND,Рубайят Хоссейн
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-80,generated,False,False,True,0.0008225999999999997,NOT_FOUND,Елена Максимович
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-83,generated,False,False,True,0.0013996499999999953,NOT_FOUND,«Родина»
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-84,generated,False,False,False,0.0005902499999999936,"2,02",2 раза
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-85,generated,False,False,False,0.00016830000000000317,более 100 человек.,47 человек
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-86,generated,True,False,False,0.00018374999999999642,53%,около 53 %
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-87,generated,False,False,False,0.00019725000000000298,21 пострадавший.,около 20
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-88,generated,True,False,False,0.00016229999999999717,7.4–7.5,"7,4"
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-89,generated,False,False,False,0.00016965000000000036,2478,2 011
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-90,generated,True,False,False,0.00035955000000000015,Дарница,«Дарница»
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-91,generated,True,False,False,0.00042345000000000577,Фатима Эззахра Эль Мансури,Фатиму эль-Мансури
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-92,generated,False,False,True,0.0012396000000000074,NOT_FOUND,услуги связи и вычислительные мощности для ВСУ
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-93,generated,False,False,False,0.0005141999999999994,повреждены здания Национального университета пищевых технологий и другие объекты,детсад
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-94,generated,False,False,True,0.0009314999999999948,NOT_FOUND,Перовский суд
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-95,generated,False,False,True,0.0006211500000000009,NOT_FOUND,дистанционное обучение
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-96,generated,False,False,True,0.001029749999999996,NOT_FOUND,40 матчей
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-97,generated,False,False,True,0.0009747000000000089,NOT_FOUND,Дмитрий Махонин
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-98,generated,False,False,True,0.0007131000000000012,NOT_FOUND,АрселорМиттал Кривой Рог
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-100,generated,False,False,True,0.0008608499999999894,NOT_FOUND,646
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-102,generated,False,False,True,0.001016999999999997,NOT_FOUND,3 года
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-103,generated,True,False,False,0.00018524999999999792,Игорь Шестёркин,Игорь Шестёркин
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-104,generated,False,False,True,0.0007226999999999997,NOT_FOUND,"3,07 %"
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-105,generated,False,False,True,0.0005958000000000005,NOT_FOUND,пожар
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-106,generated,True,False,False,0.0003209999999999949,Хокон VIII,Хокон VIII
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-107,generated,True,False,False,0.00022799999999999904,3 ноября 2026 года,3 ноября
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-108,generated,False,False,False,0.00021374999999999866,357,более 300 человек
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-109,generated,False,False,True,0.0008272500000000085,NOT_FOUND,42
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-110,generated,True,False,False,0.00015239999999999698,19 октября 2026 года.,19 октября
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-111,generated,False,False,False,0.00018945000000000073,Николас Мадуро и его жена.,Силия Флорес
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-112,generated,False,False,True,0.0010027500000000036,NOT_FOUND,Ялтинская европейская стратегия
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-114,generated,False,False,True,0.0008931000000000008,NOT_FOUND,МА203
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-115,generated,False,False,False,0.00025229999999999697,универсальный закон турбулентности,универсальному закону турбулентности
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-116,generated,False,False,True,0.0011867999999999948,NOT_FOUND,"0,3-0,4 долей секунды"
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-117,generated,False,False,True,0.0006690000000000168,NOT_FOUND,рентгеновское сканирование
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-118,generated,False,False,True,0.0006286499999999945,NOT_FOUND,16
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-120,generated,False,False,False,0.000965699999999986,факторы образа жизни и генетические предрасположенности.,кольцевые фрагменты ДНК вне хромосом
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-121,generated,True,False,False,0.0005992499999999956,Фуданьский университет.,Фуданьском университете
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-122,generated,False,False,True,0.0008380499999999791,NOT_FOUND,барион Ξcc⁺
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-123,generated,True,False,False,0.00016470000000000373,Бирмингем,Бирмингем
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-124,generated,False,False,True,0.0009869999999999879,NOT_FOUND,Таллин
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-125,generated,False,False,True,0.0009000000000000119,NOT_FOUND,Армения
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-126,generated,True,False,False,0.0007765500000000009,Германия и Австрия,Германия/Австрия
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-127,generated,False,False,True,0.0008730000000000127,NOT_FOUND,Синьтай
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-128,generated,True,False,False,0.00016950000000000298,Сан-Жуан-да-Мадейра,Сан-Жуан-да-Мадейра
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-130,generated,True,False,False,0.00016169999999998685,Белград,Белград
+"дешёвая модель, живой поиск ДЗ 1",gpt-4o-mini,gen-131,generated,True,False,False,0.0002620499999999998,Стоунхейвен,Стоунхейвен
+"дешёвая модель, RAG всегда",gpt-4o-mini,fresh-125,own,False,True,True,5.235e-05,NOT_FOUND.,Больница Питт
+"дешёвая модель, RAG всегда",gpt-4o-mini,fresh-126,own,False,False,True,6.84e-05,NOT_FOUND,Бухта вдов
+"дешёвая модель, RAG всегда",gpt-4o-mini,fresh-127,own,False,True,True,5.19e-05,NOT_FOUND,ГКС. Сент-Луис
+"дешёвая модель, RAG всегда",gpt-4o-mini,fresh-128,own,True,True,False,8.265e-05,25,25
+"дешёвая модель, RAG всегда",gpt-4o-mini,fresh-129,own,False,True,False,0.00012435,Судебной коллегией Специализированных палат по Косову в Гааге.,Специальный суд по Косову
+"дешёвая модель, RAG всегда",gpt-4o-mini,fresh-130,own,True,True,False,8.385e-05,Leopardus tilcayo.,Leopardus tilcayo
+"дешёвая модель, RAG всегда",gpt-4o-mini,fresh-131,own,True,False,False,9.72e-05,Боливия.,Боливия
+"дешёвая модель, RAG всегда",gpt-4o-mini,fresh-132,own,True,True,False,0.00010155,Социал-демократическая рабочая партия.,Социал-демократическая рабочая партия
+"дешёвая модель, RAG всегда",gpt-4o-mini,fresh-133,own,False,False,True,4.6649999999999996e-05,NOT_FOUND.,США
+"дешёвая модель, RAG всегда",gpt-4o-mini,fresh-134,own,False,False,True,4.665000000000001e-05,NOT_FOUND,Франция
+"дешёвая модель, RAG всегда",gpt-4o-mini,fresh-135,own,False,False,True,5.97e-05,NOT_FOUND.,Александр Зверев
+"дешёвая модель, RAG всегда",gpt-4o-mini,fresh-136,own,False,False,True,5.025e-05,NOT_FOUND.,Елена Рыбакина
+"дешёвая модель, RAG всегда",gpt-4o-mini,fresh-137,own,False,False,True,7.184999999999998e-05,NOT_FOUND.,первая ракетка мира
+"дешёвая модель, RAG всегда",gpt-4o-mini,fresh-138,own,True,True,False,8.954999999999998e-05,"13,2","13,2"
+"дешёвая модель, RAG всегда",gpt-4o-mini,fresh-139,own,True,True,False,0.00010905,Амодеи.,Амодеи
+"дешёвая модель, RAG всегда",gpt-4o-mini,fresh-140,own,False,False,True,4.5449999999999993e-05,NOT_FOUND.,Неизвестная женщина
+"дешёвая модель, RAG всегда",gpt-4o-mini,fresh-141,own,False,False,True,4.41e-05,NOT_FOUND.,Май эль-Туки
+"дешёвая модель, RAG всегда",gpt-4o-mini,fresh-142,own,True,True,False,8.489999999999999e-05,ДАУ.,Дау
+"дешёвая модель, RAG всегда",gpt-4o-mini,fresh-143,own,True,True,False,9.03e-05,Джон Малкович.,Джон Малкович
+"дешёвая модель, RAG всегда",gpt-4o-mini,fresh-144,own,True,True,False,5.34e-05,76,76
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-0,generated,True,True,False,9.39e-05,Даурен Косанов.,Даурен Косанов
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-8,generated,True,True,False,7.874999999999999e-05,174 пассажира.,174
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-9,generated,True,True,False,0.00010019999999999997,«Л.Е.В. Менеджмент».,«Л.Е.В. Менеджмент»
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-11,generated,True,True,False,9.915e-05,саудовских кораблей.,саудовских
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-12,generated,True,True,False,8.355e-05,Грэму Баффетту.,Грэму Баффетту
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-13,generated,False,True,True,5.250000000000003e-05,NOT_FOUND,Эндрю ДеЯнг
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-14,generated,True,True,False,8.355e-05,25.,25
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-15,generated,True,True,False,0.00010184999999999998,Кирстен Пьер-Гейфман.,Кирстен Пьер-Гейфман
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-16,generated,False,False,True,4.379999999999998e-05,NOT_FOUND.,Салли Ричардсон-Уитфилд
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-17,generated,True,True,False,7.949999999999998e-05,Ли Сон Джин.,Ли Сон Джин
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-18,generated,True,True,False,0.0001071,"Джефф Хиллер, Лиза Колон-Зайас, Крис Абрего.",Джеффа Хиллера
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-19,generated,True,True,False,8.715000000000003e-05,Эндрю ДеЯнг и Тим Робинсон.,Тим Робинсон
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-20,generated,True,True,False,7.995000000000002e-05,Джейк Шрайер.,Джейк Шрайер
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-21,generated,True,True,False,0.00012375,Маришка Харгитей.,Маришка Харгитей
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-22,generated,False,True,False,9.675e-05,тилькайо,тилька́йо
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-23,generated,False,True,False,8.234999999999997e-05,"1,4 миллиона лет назад.","1,4 млн лет назад"
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-24,generated,False,True,True,8.385e-05,NOT_FOUND,«Сенда-Верде»
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-25,generated,True,True,False,7.650000000000002e-05,2.,двух
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-27,generated,True,True,False,8.970000000000001e-05,Leopardus tigrinus antisuyo.,Leopardus tigrinus antisuyo
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-30,generated,True,True,False,0.00010005000000000002,"1,5 километра.","около 1,5 километров"
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-31,generated,True,True,False,8.25e-05,3 попытки.,три попытки
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-32,generated,True,True,False,9.525000000000001e-05,Андреасу Норлену.,Андреасу Норлену
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-33,generated,True,True,False,0.00011190000000000001,162.,162
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-34,generated,True,True,False,9.12e-05,Ульф Кристерссон.,Ульф Кристерссон
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-35,generated,True,True,False,9.089999999999999e-05,349 мест.,349
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-36,generated,False,True,False,8.970000000000001e-05,4 раза.,четырежды
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-37,generated,True,True,False,0.00011354999999999997,200 голосов.,200
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-38,generated,True,True,False,8.7e-05,"84,89 %.","84,89 %"
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-39,generated,True,True,False,7.965000000000001e-05,12 октября.,до 12 октября
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-40,generated,True,True,False,6.854999999999996e-05,Берлин.,Берлине
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-41,generated,True,True,False,6.285000000000004e-05,12 августа 2024 года.,12 августа 2024 года
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-42,generated,True,True,False,6.869999999999999e-05,28 апреля 2023 года.,28 апреля 2023 года
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-43,generated,True,True,False,6.539999999999996e-05,11.,11
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-44,generated,True,True,False,6.629999999999999e-05,4.,четырёх
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-45,generated,True,True,False,7.470000000000003e-05,апрель 2023.,апреле 2023 года
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-47,generated,False,True,True,5.969999999999999e-05,NOT_FOUND,6-2
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-48,generated,True,True,False,8.069999999999996e-05,24-26 августа.,с 24 по 26 августа
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-49,generated,False,True,True,5.654999999999999e-05,NOT_FOUND.,Якуб Меншик
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-50,generated,False,False,True,6.464999999999997e-05,NOT_FOUND.,146-й
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-51,generated,True,True,False,7.499999999999998e-05,64 команды.,64 команды
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-55,generated,True,True,False,8.295000000000004e-05,20 июля 2026 года.,20 июля 2026 года
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-58,generated,False,False,True,6.119999999999997e-05,NOT_FOUND.,Карлос Алькарас
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-59,generated,True,True,False,7.950000000000004e-05,Маттео Берреттини.,Маттео Берреттини
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-64,generated,False,True,False,9.659999999999996e-05,3-й титул.,третий
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-70,generated,True,True,False,7.755000000000001e-05,Елена Рыбакина.,Рыбакина
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-71,generated,True,True,False,7.965000000000001e-05,20 июля 2026 года.,20 июля 2026 года
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-73,generated,True,True,False,8.445000000000002e-05,Мэгги Джилленхол.,Мэгги Джилленхол
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-74,generated,False,True,True,5.084999999999996e-05,NOT_FOUND,Мариано Льинас
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-75,generated,True,True,False,8.909999999999994e-05,Бернар Огюст Куэмо Янху.,Бернар Огюст Куэмо Янху
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-76,generated,True,True,False,7.769999999999999e-05,Элизабет Чай Васархели и Джимми Чин.,Элизабет Чай Васархели и Джимми Чин
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-77,generated,True,True,False,9.299999999999998e-05,La maison du vent.,La maison du vent
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-78,generated,False,False,True,5.414999999999999e-05,NOT_FOUND.,Рубайят Хоссейн
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-80,generated,False,False,True,6.119999999999997e-05,NOT_FOUND,Елена Максимович
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-83,generated,True,True,False,8.324999999999999e-05,Родина.,«Родина»
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-84,generated,True,True,False,9.270000000000003e-05,2 раза.,2 раза
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-85,generated,False,True,False,6.869999999999999e-05,111.,47 человек
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-86,generated,True,True,False,7.649999999999996e-05,53 %,около 53 %
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-87,generated,False,True,False,8.985000000000004e-05,19 человек.,около 20
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-88,generated,True,True,False,7.844999999999998e-05,"7,4","7,4"
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-89,generated,True,True,False,7.665000000000005e-05,2011.,2 011
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-90,generated,True,True,False,7.229999999999997e-05,«Дарница».,«Дарница»
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-91,generated,True,True,False,7.530000000000004e-05,Фатима эль-Мансури.,Фатиму эль-Мансури
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-92,generated,True,True,False,8.834999999999995e-05,Услуги связи и вычислительные мощности для ВСУ.,услуги связи и вычислительные мощности для ВСУ
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-93,generated,True,True,False,7.620000000000001e-05,детский сад.,детсад
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-94,generated,True,True,False,0.00015150000000000005,Перовский суд.,Перовский суд
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-95,generated,True,True,False,8.430000000000004e-05,дистанционное обучение.,дистанционное обучение
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-96,generated,True,True,False,9.179999999999995e-05,40 матчей.,40 матчей
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-97,generated,True,True,False,8.565000000000005e-05,Дмитрий Махонин.,Дмитрий Махонин
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-98,generated,True,True,False,9.464999999999994e-05,АрселорМиттал Кривой Рог.,АрселорМиттал Кривой Рог
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-100,generated,True,True,False,0.00010365000000000005,646.,646
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-102,generated,True,True,False,8.669999999999999e-05,3 года.,3 года
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-103,generated,True,True,False,9.825000000000003e-05,Игорь Шестёркин.,Игорь Шестёркин
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-104,generated,True,True,False,0.00010665000000000002,"3,07 %.","3,07 %"
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-105,generated,True,True,False,0.00010439999999999994,Пожар.,пожар
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-106,generated,True,True,False,0.00010320000000000001,Хокон VIII.,Хокон VIII
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-107,generated,True,True,False,5.144999999999998e-05,3 ноября.,3 ноября
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-108,generated,True,True,False,6.87000000000001e-05,более 300 человек.,более 300 человек
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-109,generated,True,True,False,6.989999999999991e-05,42.,42
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-110,generated,True,True,False,4.290000000000001e-05,19 октября.,19 октября
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-111,generated,True,True,False,9.869999999999996e-05,Силия Флорес.,Силия Флорес
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-112,generated,True,True,False,7.784999999999997e-05,Ялтинская европейская стратегия.,Ялтинская европейская стратегия
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-114,generated,True,True,False,7.724999999999995e-05,МА203.,МА203
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-115,generated,True,True,False,7.769999999999999e-05,универсальному закону турбулентности.,универсальному закону турбулентности
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-116,generated,False,True,True,8.295000000000004e-05,NOT_FOUND,"0,3-0,4 долей секунды"
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-117,generated,True,True,False,8.654999999999991e-05,рентгеновское сканирование.,рентгеновское сканирование
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-118,generated,True,True,False,6.915000000000003e-05,16.,16
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-120,generated,True,True,False,9.314999999999996e-05,кольцевые фрагменты ДНК вне хромосом.,кольцевые фрагменты ДНК вне хромосом
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-121,generated,True,True,False,6.615000000000006e-05,Фуданьский университет.,Фуданьском университете
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-122,generated,True,True,False,0.0001026,барион Ξcc⁺.,барион Ξcc⁺
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-123,generated,True,True,False,6.45000000000001e-05,Бирмингем.,Бирмингем
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-124,generated,True,True,False,7.004999999999989e-05,Таллин.,Таллин
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-125,generated,True,True,False,6.089999999999991e-05,Армения.,Армения
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-126,generated,True,True,False,6.780000000000002e-05,Германия и Австрия.,Германия/Австрия
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-127,generated,True,True,False,6.659999999999999e-05,"Синьтай, Китай.",Синьтай
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-128,generated,True,True,False,8.099999999999991e-05,Сан-Жуан-да-Мадейра.,Сан-Жуан-да-Мадейра
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-130,generated,True,True,False,6.434999999999991e-05,Белград.,Белград
+"дешёвая модель, RAG всегда",gpt-4o-mini,gen-131,generated,True,True,False,7.00500000000001e-05,Стоунхейвен.,Стоунхейвен
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,fresh-125,own,True,False,False,0.0008617000000000001,Больница Питт,Больница Питт
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,fresh-126,own,False,False,True,0.00116838,NOT_FOUND,Бухта вдов
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,fresh-127,own,False,False,True,0.0012492999999999998,NOT_FOUND,ГКС. Сент-Луис
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,fresh-128,own,True,False,False,0.0001722,25,25
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,fresh-129,own,False,False,False,0.000196,Гаагский трибунал,Специальный суд по Косову
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,fresh-130,own,True,False,False,0.00014907,Leopardus tilcayo,Leopardus tilcayo
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,fresh-131,own,True,False,False,0.00015477,Боливия,Боливия
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,fresh-132,own,True,False,False,0.00030023,Социал-демократическая рабочая партия,Социал-демократическая рабочая партия
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,fresh-133,own,False,False,True,0.0008223000000000002,NOT_FOUND,США
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,fresh-134,own,False,False,True,0.0010376699999999999,NOT_FOUND,Франция
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,fresh-135,own,False,False,False,0.00030371,Карлос Алькарас,Александр Зверев
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,fresh-136,own,False,False,False,0.0005013700000000001,Арина Соболенко,Елена Рыбакина
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,fresh-137,own,False,False,True,0.0012242800000000001,NOT_FOUND,первая ракетка мира
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,fresh-138,own,True,False,False,0.00018256999999999995,"13,2","13,2"
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,fresh-139,own,True,False,False,0.0002815799999999999,Амодеи,Амодеи
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,fresh-140,own,True,False,False,0.00017125000000000007,Неизвестная женщина,Неизвестная женщина
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,fresh-141,own,True,False,False,0.0002886700000000001,Май эль-Туки,Май эль-Туки
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,fresh-142,own,True,False,False,0.00015328999999999994,ДАУ,Дау
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,fresh-143,own,True,False,False,0.00048711999999999996,Джон Малкович,Джон Малкович
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,fresh-144,own,True,False,False,0.00014926000000000002,76,76
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-0,generated,True,False,False,0.00016067999999999985,Даурен Косанов,Даурен Косанов
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-8,generated,True,False,False,0.00018223000000000013,174,174
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-9,generated,True,False,False,0.00015897000000000003,«Л.Е.В. Менеджмент»,«Л.Е.В. Менеджмент»
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-11,generated,True,False,False,0.0001720500000000002,саудовских кораблей,саудовских
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-12,generated,True,False,False,0.00015703000000000006,Грэму Баффетту,Грэму Баффетту
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-13,generated,True,False,False,0.00016149000000000024,Эндрю ДеЯнг,Эндрю ДеЯнг
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-14,generated,True,False,False,0.00086685,25,25
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-15,generated,True,False,False,0.00018488000000000011,Кирстен Пьер-Гейфман,Кирстен Пьер-Гейфман
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-16,generated,False,False,True,0.0009839599999999999,NOT_FOUND,Салли Ричардсон-Уитфилд
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-17,generated,True,False,False,0.00016675000000000001,Ли Сон Джин,Ли Сон Джин
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-18,generated,True,False,False,0.00019108999999999988,"Джефф Хиллер, Лиза Колон-Зайас, Крис Абрего.",Джеффа Хиллера
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-19,generated,True,False,False,0.0001638499999999999,Тим Робинсон,Тим Робинсон
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-20,generated,True,False,False,0.00016978999999999996,Джейк Шрайер,Джейк Шрайер
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-21,generated,True,False,False,0.0002177800000000001,Маришка Харгитей,Маришка Харгитей
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-22,generated,False,False,False,0.00015945,тилькайо,тилька́йо
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-23,generated,False,False,False,0.00018789000000000002,"1,4 миллиона лет назад","1,4 млн лет назад"
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-24,generated,True,False,False,0.00017485000000000005,Сенда-Верде,«Сенда-Верде»
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-25,generated,True,False,False,0.0003398800000000001,2,двух
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-27,generated,True,False,False,0.00015408999999999996,Leopardus tigrinus antisuyo,Leopardus tigrinus antisuyo
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-30,generated,True,False,False,0.00015643999999999988,"1,5 километра","около 1,5 километров"
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-31,generated,True,False,False,0.00016466000000000007,3 попытки,три попытки
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-32,generated,True,False,False,0.00018234000000000002,Андреасу Норлену,Андреасу Норлену
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-33,generated,True,False,False,0.00018440999999999987,162,162
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-34,generated,True,False,False,0.00016039000000000027,Ульф Кристерссон,Ульф Кристерссон
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-35,generated,True,False,False,0.00015254000000000005,349,349
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-36,generated,False,False,False,0.00017068999999999982,4,четырежды
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-37,generated,True,False,False,0.0002011099999999998,200,200
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-38,generated,True,False,False,0.00015141999999999998,"84,89%","84,89 %"
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-39,generated,True,False,False,0.00016814999999999972,12 октября 2026 года,до 12 октября
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-40,generated,True,False,False,0.0005866599999999999,Берлин,Берлине
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-41,generated,True,False,False,0.0001408099999999999,12 августа 2024 года.,12 августа 2024 года
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-42,generated,True,False,False,0.00015214000000000004,28 апреля 2023 года.,28 апреля 2023 года
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-43,generated,True,False,False,0.00014683000000000014,11 сборных,11
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-44,generated,True,False,False,0.00014962000000000005,4,четырёх
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-45,generated,True,False,False,0.00014981000000000022,апрель 2023,апреле 2023 года
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-47,generated,True,False,False,0.00019045999999999993,6-2,6-2
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-48,generated,True,False,False,0.00016116000000000004,24-26 августа 2026,с 24 по 26 августа
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-49,generated,True,False,False,0.0003214699999999999,Якуб Меншик,Якуб Меншик
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-50,generated,False,False,False,0.0006272799999999996,136-й,146-й
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-51,generated,True,False,False,0.00028041000000000003,64 команды,64 команды
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-55,generated,True,False,False,0.00017038999999999986,20 июля 2026 года,20 июля 2026 года
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-58,generated,False,False,True,0.0007063900000000003,NOT_FOUND,Карлос Алькарас
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-59,generated,True,False,False,0.0003307500000000003,Маттео Берреттини,Маттео Берреттини
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-64,generated,False,False,False,0.0003185499999999999,3,третий
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-70,generated,True,False,False,0.00017591000000000048,Соболенко и Рыбакина.,Рыбакина
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-71,generated,True,False,False,0.0004934600000000003,20 июля 2026 года,20 июля 2026 года
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-73,generated,True,False,False,0.00013604999999999997,Мэгги Джилленхол,Мэгги Джилленхол
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-74,generated,True,False,False,0.00015736000000000005,Мариано Льинас,Мариано Льинас
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-75,generated,True,False,False,0.00017230999999999974,Бернар Огюст Куэмо Янху,Бернар Огюст Куэмо Янху
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-76,generated,True,False,False,0.00015545000000000012,Элизабет Чай Васархели и Джимми Чин,Элизабет Чай Васархели и Джимми Чин
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-77,generated,True,False,False,0.0001773699999999996,La maison du vent,La maison du vent
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-78,generated,True,False,False,0.0001480399999999999,Рубайят Хоссейн,Рубайят Хоссейн
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-80,generated,True,False,False,0.0001432600000000001,Елена Максимович,Елена Максимович
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-83,generated,True,False,False,0.00016983000000000015,Родина,«Родина»
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-84,generated,True,False,False,0.00016159000000000008,2 раза,2 раза
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-85,generated,False,False,False,0.00014338000000000024,111,47 человек
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-86,generated,True,False,False,0.0001488800000000001,53%,около 53 %
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-87,generated,False,False,False,0.0001611099999999999,19 пострадало.,около 20
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-88,generated,True,False,False,0.0001602000000000001,"7,4","7,4"
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-89,generated,True,False,False,0.00016134999999999977,2011,2 011
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-90,generated,True,False,False,0.00016107000000000014,Дарница,«Дарница»
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-91,generated,True,False,False,0.00016314999999999993,Фатима Эззахра эль-Мансури.,Фатиму эль-Мансури
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-92,generated,False,False,False,0.00017890000000000007,удар обоснован услугами для ВСУ.,услуги связи и вычислительные мощности для ВСУ
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-93,generated,True,False,False,0.00015398999999999968,детский сад,детсад
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-94,generated,True,False,False,0.00015039999999999975,Перовский суд Москвы.,Перовский суд
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-95,generated,True,False,False,0.0001652600000000004,дистанционное обучение,дистанционное обучение
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-96,generated,True,False,False,0.00017256999999999993,40 матчей,40 матчей
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-97,generated,True,False,False,0.00016306000000000003,Дмитрий Махонин,Дмитрий Махонин
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-98,generated,True,False,False,0.00017246000000000015,АрселорМиттал Кривой Рог,АрселорМиттал Кривой Рог
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-100,generated,True,False,False,0.00017286999999999988,646,646
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-102,generated,True,False,False,0.0001625499999999996,3 года,3 года
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-103,generated,True,False,False,0.00019654000000000026,Игорь Шестёркин,Игорь Шестёркин
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-104,generated,True,False,False,0.0001602000000000001,"3,07%","3,07 %"
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-105,generated,True,False,False,0.0001827999999999999,Пожар на НПЗ «Киришинефтеоргсинтез».,пожар
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-106,generated,True,False,False,0.00018968000000000023,Хокон VIII,Хокон VIII
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-107,generated,True,False,False,0.0001802100000000001,3 ноября 2026 года,3 ноября
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-108,generated,True,False,False,0.0001478600000000001,300+ погибших,более 300 человек
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-109,generated,True,False,False,0.00013790999999999977,42,42
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-110,generated,True,False,False,0.00014833999999999984,19 октября 2026 года,19 октября
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-111,generated,True,False,False,0.00018265000000000035,Силия Флорес,Силия Флорес
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-112,generated,True,False,False,0.00017246000000000015,Ялтинская европейская стратегия,Ялтинская европейская стратегия
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-114,generated,True,False,False,0.00015327000000000006,МА203,МА203
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-115,generated,False,False,False,0.00017118999999999988,универсальный закон турбулентности,универсальному закону турбулентности
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-116,generated,True,False,False,0.00014868000000000043,"0,3-0,4 долей секунды","0,3-0,4 долей секунды"
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-117,generated,True,False,False,0.0001605500000000002,рентгеновское сканирование,рентгеновское сканирование
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-118,generated,True,False,False,0.00012696000000000018,16,16
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-120,generated,False,False,False,0.00018508999999999973,"кольцевые фрагменты ДНК, высокопластичные раковые клетки HPCS",кольцевые фрагменты ДНК вне хромосом
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-121,generated,True,False,False,0.0001712199999999997,Фуданьский университет,Фуданьском университете
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-122,generated,True,False,False,0.00018394000000000006,барион Ξcc⁺,барион Ξcc⁺
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-123,generated,True,False,False,0.00013476999999999977,Бирмингем,Бирмингем
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-124,generated,True,False,False,0.00014685000000000002,Таллин,Таллин
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-125,generated,True,False,False,0.0001374400000000004,Армения,Армения
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-126,generated,True,False,False,0.0001647399999999996,Германия и Австрия.,Германия/Австрия
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-127,generated,True,False,False,0.0004199299999999998,"Синьтай, Китай",Синьтай
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-128,generated,True,False,False,0.00015204999999999993,Сан-Жуан-да-Мадейра,Сан-Жуан-да-Мадейра
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-130,generated,True,False,False,0.00013885999999999976,"Белград, Сербия",Белград
+"дешёвая модель, агент + knowledge_base",gpt-4o-mini,gen-131,generated,True,False,False,0.00015541999999999943,Стоунхейвен,Стоунхейвен
+"средняя модель, RAG всегда",claude-haiku-4.5,fresh-125,own,True,True,False,0.00089,«Больница Питт» был признан лучшим драматическим сериалом на 78-й церемонии вруч,Больница Питт
+"средняя модель, RAG всегда",claude-haiku-4.5,fresh-126,own,False,False,True,0.00088,"Информация о том, какой сериал получил награду как лучший комедийный сериал на 7",Бухта вдов
+"средняя модель, RAG всегда",claude-haiku-4.5,fresh-127,own,True,True,False,0.000925,«ГКС. Сент-Луис» был признан лучшим мини-сериалом на 78-й церемонии премии «Эмми,ГКС. Сент-Луис
+"средняя модель, RAG всегда",claude-haiku-4.5,fresh-128,own,True,True,False,0.00104,25,25
+"средняя модель, RAG всегда",claude-haiku-4.5,fresh-129,own,False,True,False,0.001339,Судебная коллегия Специализированных палат по Косову в Гааге.,Специальный суд по Косову
+"средняя модель, RAG всегда",claude-haiku-4.5,fresh-130,own,True,True,False,0.000861,Leopardus tilcayo,Leopardus tilcayo
+"средняя модель, RAG всегда",claude-haiku-4.5,fresh-131,own,True,False,False,0.001204,Боливия,Боливия
+"средняя модель, RAG всегда",claude-haiku-4.5,fresh-132,own,True,True,False,0.000952,Социал-демократическая рабочая партия.,Социал-демократическая рабочая партия
+"средняя модель, RAG всегда",claude-haiku-4.5,fresh-133,own,False,False,True,0.0010009999999999997,Информация о победителе чемпионата мира по баскетболу среди женщин 2026 года в п,США
+"средняя модель, RAG всегда",claude-haiku-4.5,fresh-134,own,False,False,True,0.001014,Информация о результатах финала чемпионата мира по баскетболу среди женщин 2026 ,Франция
+"средняя модель, RAG всегда",claude-haiku-4.5,fresh-135,own,False,False,True,0.001109,Информация о победителе мужского одиночного разряда US Open 2026 в предоставленн,Александр Зверев
+"средняя модель, RAG всегда",claude-haiku-4.5,fresh-136,own,False,False,True,0.00098,Информация о победительнице турнира не найдена в предоставленных источниках.,Елена Рыбакина
+"средняя модель, RAG всегда",claude-haiku-4.5,fresh-137,own,False,False,True,0.0011849999999999999,Информация о позиции Елены Рыбакины в мировом рейтинге после победы на US Open 2,первая ракетка мира
+"средняя модель, RAG всегда",claude-haiku-4.5,fresh-138,own,True,True,False,0.0010809999999999997,"13,2","13,2"
+"средняя модель, RAG всегда",claude-haiku-4.5,fresh-139,own,True,True,False,0.001666,"Главы компаний Anthropic (Дарио Амодеи), SpaceX/xAI (Илон Маск) и OpenAI (Сэм Ал",Амодеи
+"средняя модель, RAG всегда",claude-haiku-4.5,fresh-140,own,False,False,True,0.001054,"Информация о конкретном фильме, получившем «Золотого льва» на 83-м Венецианском ",Неизвестная женщина
+"средняя модель, RAG всегда",claude-haiku-4.5,fresh-141,own,False,False,True,0.00098,Информация не найдена в предоставленных источниках.,Май эль-Туки
+"средняя модель, RAG всегда",claude-haiku-4.5,fresh-142,own,True,True,False,0.0008549999999999999,За фильм «ДАУ»,Дау
+"средняя модель, RAG всегда",claude-haiku-4.5,fresh-143,own,True,True,False,0.0012210000000000003,Джон Малкович получил «Кубок Вольпи» за лучшую мужскую роль на 83-м Венецианском,Джон Малкович
+"средняя модель, RAG всегда",claude-haiku-4.5,fresh-144,own,True,True,False,0.0006980000000000003,76,76
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-0,generated,True,True,False,0.0012929999999999999,Даурен Косанов был снят с должности министра обороны Казахстана.,Даурен Косанов
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-8,generated,True,True,False,0.0008800000000000001,174 пассажира.,174
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-9,generated,True,True,False,0.001078,Компания «Л.Е.В. Менеджмент»,«Л.Е.В. Менеджмент»
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-11,generated,True,True,False,0.0009949999999999998,Саудовских кораблей.,саудовских
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-12,generated,True,True,False,0.000931,"Грэму Баффетту, сыну Уоррена Баффетта.",Грэму Баффетту
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-13,generated,False,True,True,0.0010600000000000002,Информация о режиссёре эпизода не найдена в предоставленных источниках.,Эндрю ДеЯнг
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-14,generated,True,True,False,0.0008400000000000005,25 номинаций.,25
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-15,generated,True,True,False,0.0009880000000000002,Кирстен Пьер-Гейфман,Кирстен Пьер-Гейфман
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-16,generated,False,False,True,0.001,Информация о номинантах на премию Эмми 2026 в категории «Режиссура» за сериал «З,Салли Ричардсон-Уитфилд
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-17,generated,True,True,False,0.0010140000000000001,"Ли Сон Джин получил премию Эмми 2026 за режиссуру эпизода «Oh, The Comfort, The ",Ли Сон Джин
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-18,generated,True,True,False,0.001092,"Джефф Хиллер, Лиза Колон-Зайас и Крис Абрего.",Джеффа Хиллера
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-19,generated,False,True,True,0.001447,NOT_FOUND,Тим Робинсон
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-20,generated,True,True,False,0.0007650000000000001,Джейк Шрайер,Джейк Шрайер
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-21,generated,True,True,False,0.0012899999999999995,Маришка Харгитей,Маришка Харгитей
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-22,generated,False,True,False,0.001418,Местные жители называли Leopardus tilcayo «тилькайо».,тилька́йо
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-23,generated,True,True,False,0.0011939999999999997,"Около 1,4 млн лет назад (95% интервал: 0,80—2,05 млн лет назад).","1,4 млн лет назад"
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-24,generated,True,True,False,0.0010820000000000005,Частный приют для диких животных «Сенда-Верде»,«Сенда-Верде»
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-25,generated,True,True,False,0.0008250000000000002,Минимум два живых представителя.,двух
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-27,generated,True,True,False,0.0010140000000000001,Leopardus tigrinus antisuyo,Leopardus tigrinus antisuyo
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-30,generated,True,True,False,0.0010379999999999999,"Около 1,5 километров над уровнем моря.","около 1,5 километров"
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-31,generated,True,True,False,0.0010800000000000002,У тальмана останется 3 попытки предложить кандидатуры.,три попытки
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-32,generated,True,True,False,0.0010540000000000002,"Андреасу Норлену, председателю парламента (тальману риксдага).",Андреасу Норлену
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-33,generated,True,True,False,0.0012050000000000003,162 женщины-депутата.,162
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-34,generated,True,True,False,0.0008910000000000003,Ульф Кристерссон,Ульф Кристерссон
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-35,generated,True,True,False,0.0009849999999999998,349 мест.,349
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-36,generated,False,True,False,0.0010039999999999997,Четыре раза.,четырежды
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-37,generated,True,True,False,0.0010990000000000002,200 голосов.,200
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-38,generated,True,True,False,0.00083,"84,89 %","84,89 %"
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-39,generated,True,True,False,0.0008700000000000001,До 12 октября.,до 12 октября
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-40,generated,True,True,False,0.000856,"Берлин, Германия",Берлине
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-41,generated,True,True,False,0.0007930000000000003,Логотип женского чемпионата мира по баскетболу 2026 года был представлен 12 авгу,12 августа 2024 года
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-42,generated,True,True,False,0.0008189999999999994,28 апреля 2023 года,28 апреля 2023 года
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-43,generated,True,True,False,0.000732,11 сборных.,11
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-44,generated,True,True,False,0.0009009999999999999,4 континентальных турнира дают прямую путёвку на Чемпионат мира по баскетболу ср,четырёх
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-45,generated,True,True,False,0.0007679999999999996,Апрель 2023 года,апреле 2023 года
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-47,generated,True,True,False,0.0009449999999999997,6-2,6-2
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-48,generated,True,True,False,0.0008449999999999994,С 24 по 26 августа 2026 года.,с 24 по 26 августа
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-49,generated,True,True,False,0.0012350000000000009,Якуб Меншик был партнёром Каролины Муховой в финале смешанного парного разряда н,Якуб Меншик
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-50,generated,False,False,True,0.0008439999999999993,"В предоставленных источниках не содержится информация о том, каким по счёту розы",146-й
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-51,generated,True,True,False,0.0007699999999999999,64 команды,64 команды
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-55,generated,True,True,False,0.0011349999999999997,"Список участников был опубликован на основе рейтинга ATP за неделю, начинающуюся",20 июля 2026 года
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-58,generated,False,False,True,0.0011159999999999998,Информация о действующем чемпионе не найдена в предоставленных источниках.,Карлос Алькарас
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-59,generated,True,True,False,0.0007889999999999998,Маттео Берреттини,Маттео Берреттини
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-64,generated,True,True,False,0.0010399999999999993,Третьим титулом на турнирах Большого шлема.,третий
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-70,generated,True,True,False,0.0014029999999999997,"Елена Рыбакина вместе с Соболенко стала первой парой теннисисток, встретившихся ",Рыбакина
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-71,generated,True,True,False,0.0010209999999999993,"Неделю, начинающуюся 20 июля 2026 года.",20 июля 2026 года
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-73,generated,True,True,False,0.0008809999999999998,Мэгги Джилленхол,Мэгги Джилленхол
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-74,generated,False,True,False,0.0008900000000000002,Марiano Льинас,Мариано Льинас
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-75,generated,True,True,False,0.0010360000000000005,Бернар Огюст Куэмо Янху за фильм «Дом ветра»,Бернар Огюст Куэмо Янху
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-76,generated,True,True,False,0.0008630000000000009,Элизабет Чай Васархели и Джимми Чин.,Элизабет Чай Васархели и Джимми Чин
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-77,generated,True,True,False,0.0008669999999999997,La maison du vent,La maison du vent
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-78,generated,False,False,True,0.0007270000000000002,NOT_FOUND,Рубайят Хоссейн
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-80,generated,False,False,True,0.0011959999999999991,NOT_FOUND,Елена Максимович
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-83,generated,True,True,False,0.0008300000000000009,Партия «Родина»,«Родина»
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-84,generated,True,True,False,0.000954,В 2 раза.,2 раза
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-85,generated,False,True,False,0.0007850000000000001,111 человек.,47 человек
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-86,generated,True,True,False,0.0007500000000000007,53%,около 53 %
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-87,generated,False,True,False,0.0010970000000000008,19 человек пострадало при взрыве бомбы у ресторана Balzi Rossi в Москве в август,около 20
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-88,generated,True,True,False,0.0009469999999999999,"Магнитуда землетрясения в департаменте Чоко (Колумбия) в 2026 году составила 7,4","7,4"
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-89,generated,True,True,False,0.0010629999999999997,2 011 человек погибло во время вспышки лихорадки Эбола в ДРК в 2026 году.,2 011
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-90,generated,True,True,False,0.0012379999999999995,Фармацевтический завод «Дарница» был повреждён российскими беспилотниками в сент,«Дарница»
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-91,generated,True,True,False,0.0012890000000000002,Фатима эль-Мансури была назначена премьер-министром Марокко по итогам парламентс,Фатиму эль-Мансури
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-92,generated,False,True,False,0.001301,"МО РФ объяснило атаку на телекоммуникационные центры тем, что они предоставляли ",услуги связи и вычислительные мощности для ВСУ
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-93,generated,True,True,False,0.0010150000000000003,Детский сад в Киеве был повреждён ударами ВС России 26 сентября 2026 года.,детсад
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-94,generated,True,True,False,0.0018690000000000009,Перовский суд Москвы.,Перовский суд
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-95,generated,True,True,False,0.0010489999999999996,дистанционное обучение,дистанционное обучение
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-96,generated,True,True,False,0.00102,До 40 матчей.,40 матчей
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-97,generated,True,True,False,0.000981000000000001,Губернатор Дмитрий Махонин.,Дмитрий Махонин
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-98,generated,True,True,False,0.001079,АрселорМиттал Кривой Рог,АрселорМиттал Кривой Рог
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-100,generated,True,True,False,0.0016609999999999993,По данным МО РФ в октябре 2026 года было перехвачено и уничтожено 646 беспилотны,646
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-102,generated,True,True,False,0.0008400000000000005,3 года,3 года
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-103,generated,True,True,False,0.0011839999999999993,Игорь Шестёркин,Игорь Шестёркин
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-104,generated,True,True,False,0.0011359999999999999,"3,07 % годовых.","3,07 %"
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-105,generated,True,True,False,0.0011710000000000002,На предприятии возник пожар.,пожар
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-106,generated,True,True,False,0.0012469999999999998,Хокон VIII стал новым королём Норвегии после смерти Харальда V в 2026 году.,Хокон VIII
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-107,generated,True,True,False,0.0006080000000000009,3 ноября 2026 года.,3 ноября
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-108,generated,True,True,False,0.0007449999999999991,Более 300 человек.,более 300 человек
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-109,generated,True,True,False,0.0007139999999999994,42 человека.,42
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-110,generated,True,True,False,0.0007390000000000001,19 октября 2026 года.,19 октября
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-111,generated,True,True,False,0.0009630000000000003,"Силия Флорес, жена президента Николаса Мадуро.",Силия Флорес
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-112,generated,True,True,False,0.0011660000000000004,Ялтинская европейская стратегия,Ялтинская европейская стратегия
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-114,generated,True,True,False,0.0008850000000000004,МА203,МА203
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-115,generated,True,True,False,0.0008780000000000003,По универсальному закону турбулентности.,универсальному закону турбулентности
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-116,generated,True,True,False,0.0007570000000000007,"0,3-0,4 доли секунды","0,3-0,4 долей секунды"
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-117,generated,True,True,False,0.0008179999999999993,Рентгеновское сканирование.,рентгеновское сканирование
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-118,generated,True,True,False,0.0007360000000000005,16 рек.,16
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-120,generated,True,True,False,0.0009490000000000002,Кольцевые фрагменты ДНК вне хромосом.,кольцевые фрагменты ДНК вне хромосом
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-121,generated,True,True,False,0.0008500000000000001,Фуданьский университет (Шанхай),Фуданьском университете
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-122,generated,True,True,False,0.0012230000000000001,Барион Ξcc⁺ (барион с двумя очарованными кварками),барион Ξcc⁺
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-123,generated,True,True,False,0.0007749999999999996,"Бирмингем, Великобритания",Бирмингем
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-124,generated,True,True,False,0.0007930000000000003,"Таллин, Эстония",Таллин
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-125,generated,True,True,False,0.0006820000000000003,Армения,Армения
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-126,generated,True,True,False,0.0008979999999999995,Германия и Австрия.,Германия/Австрия
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-127,generated,True,True,False,0.0007179999999999999,"Синьтай, Китай",Синьтай
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-128,generated,True,True,False,0.0008479999999999998,Сан-Жуан-да-Мадейра,Сан-Жуан-да-Мадейра
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-130,generated,True,True,False,0.000699,"Белград, Сербия",Белград
+"средняя модель, RAG всегда",claude-haiku-4.5,gen-131,generated,True,True,False,0.0008269999999999996,"Стоунхейвен, Шотландия",Стоунхейвен

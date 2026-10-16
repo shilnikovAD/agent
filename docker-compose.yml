@@ -1,0 +1,34 @@
+# Одна команда: docker compose up
+#  - kb:    MCP-сервер базы знаний во внутренней сети без выхода наружу, только чтение, без секретов
+#  - agent: Telegram-бот (если в .env есть TELEGRAM_BOT_TOKEN) или демо на сохранённом чате
+# Замер: docker compose run --rm agent python -m workchat eval
+services:
+  kb:
+    build: { context: ., dockerfile: mcp_kb/Dockerfile }
+    image: workchat-kb:1.0.0
+    read_only: true
+    volumes:
+      - ./data/kb:/kb:ro
+    networks: [kbnet]
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+
+  agent:
+    build: .
+    image: workchat-agent:1.0.0
+    env_file: .env
+    environment:
+      MCP_URL: http://kb:8765/mcp
+      RUNS_DIR: /app/runs
+    volumes:
+      - ./runs:/app/runs
+    depends_on:
+      kb: { condition: service_healthy }
+    networks: [kbnet, egress]
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+
+networks:
+  kbnet:
+    internal: true   # из этой сети нет выхода в интернет
+  egress: {}

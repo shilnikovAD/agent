@@ -1,0 +1,48 @@
+[
+ {
+  "model": "openai/gpt-4o-mini",
+  "role": "router",
+  "tools": [],
+  "tax_tokens": 0
+ },
+ {
+  "model": "openai/gpt-4o-mini",
+  "role": "responder",
+  "tools": [
+   "kb_list_documents",
+   "kb_search"
+  ],
+  "tax_tokens": 104
+ },
+ {
+  "model": "openai/gpt-4o-mini",
+  "role": "admin",
+  "tools": [
+   "kb_reload"
+  ],
+  "tax_tokens": 31
+ },
+ {
+  "model": "anthropic/claude-sonnet-4.6",
+  "role": "router",
+  "tools": [],
+  "tax_tokens": 0
+ },
+ {
+  "model": "anthropic/claude-sonnet-4.6",
+  "role": "responder",
+  "tools": [
+   "kb_list_documents",
+   "kb_search"
+  ],
+  "tax_tokens": 682
+ },
+ {
+  "model": "anthropic/claude-sonnet-4.6",
+  "role": "admin",
+  "tools": [
+   "kb_reload"
+  ],
+  "tax_tokens": 557
+ }
+]

@@ -1,0 +1,17 @@
+{
+ "owner": {
+  "name": "Артур Шильников",
+  "username": "artur_sh",
+  "name_forms": ["артур", "артура", "артуру", "артуром", "артуре", "артурчик", "@artur_sh", "шильников"]
+ },
+ "people": {
+  "m_lebedeva": {"name": "Мария Лебедева", "role": "lead"},
+  "oleg_sedov": {"name": "Олег Седов", "role": "product"},
+  "irina_qa": {"name": "Ирина Ковалёва", "role": "qa"},
+  "pavel_kim": {"name": "Павел Ким", "role": "devops"},
+  "d_orlov": {"name": "Дмитрий Орлов", "role": "dev"},
+  "anna_hr": {"name": "Анна Белова", "role": "hr"},
+  "ci_bot": {"name": "GitLab CI", "role": "bot"}
+ },
+ "approval_required_roles": ["lead", "hr"]
+}
